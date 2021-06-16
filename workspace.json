@@ -1,11 +1,11 @@
 {
   "version": 2,
   "cli": {
-    "defaultCollection": "@nrwl/next"
+    "defaultCollection": "@nx-plus/nuxt"
   },
-  "defaultProject": "back-end",
+  "defaultProject": "nuxt-client",
   "generators": {
-    "@nrwl/next": {
+    "@nx-plus/nuxt": {
       "application": {
         "style": "scss",
         "linter": "eslint"
