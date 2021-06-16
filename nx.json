@@ -26,7 +26,8 @@
   },
   "projects": {
     "back-end": {
-      "tags": ["scope:server"]
+      "tags": ["scope:server"],
+      "implicitDependencies": ["front-end"]
     },
     "front-end": {
       "tags": ["scope:client"]
