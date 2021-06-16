@@ -1,0 +1,3 @@
+set -ex
+nohup sh -c 'yarn run:storybook' & \
+nx e2e front-end-e2e && tail -f nohup.out

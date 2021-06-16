@@ -25,15 +25,15 @@
     }
   },
   "projects": {
-    "back-end": {
-      "tags": ["scope:server"],
-      "implicitDependencies": ["front-end"]
-    },
     "front-end": {
       "tags": ["scope:client"]
     },
     "front-end-e2e": {
       "tags": ["scope:client"],
+      "implicitDependencies": ["front-end"]
+    },
+    "back-end": {
+      "tags": ["scope:server"],
       "implicitDependencies": ["front-end"]
     }
   }

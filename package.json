@@ -4,12 +4,11 @@
   "license": "MIT",
   "scripts": {
     "nx": "nx",
-    "ci": "yarn;nx run-many --target=build --all --parallel;nx run-many --target=test --all --parallel;nx run-many --target=e2e --all --parallel",
     "start": "nx serve",
     "build": "nx build",
     "test": "nx test",
     "lint": "nx workspace-lint && nx lint",
-    "e2e": "nx e2e",
+    "e2e": "yarn run e2e:storybook",
     "affected:apps": "nx affected:apps",
     "affected:libs": "nx affected:libs",
     "affected:build": "nx affected:build",
@@ -26,7 +25,9 @@
     "workspace-generator": "nx workspace-generator",
     "dep-graph": "nx dep-graph",
     "help": "nx help",
-    "run:storybook": "nx run front-end:storybook"
+    "run:storybook": "nx run front-end:storybook",
+    "ci": "yarn;nx run-many --target=build --all --parallel;nx run-many --target=test --all --parallel;nx run-many --target=e2e --all --parallel",
+    "e2e:storybook": "sh tools/scripts/e2e_storybook"
   },
   "private": true,
   "dependencies": {
