@@ -20,7 +20,9 @@
       "targets": {
         "build": {
           "executor": "@nrwl/next:build",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "root": "apps/front-end",
             "outputPath": "dist/apps/front-end"
@@ -50,7 +52,9 @@
         },
         "test": {
           "executor": "@nrwl/jest:jest",
-          "outputs": ["coverage/apps/front-end"],
+          "outputs": [
+            "coverage/apps/front-end"
+          ],
           "options": {
             "jestConfig": "apps/front-end/jest.config.js",
             "passWithNoTests": true
@@ -59,7 +63,9 @@
         "lint": {
           "executor": "@nrwl/linter:eslint",
           "options": {
-            "lintFilePatterns": ["apps/front-end/**/*.{ts,tsx,js,jsx}"]
+            "lintFilePatterns": [
+              "apps/front-end/**/*.{ts,tsx,js,jsx}"
+            ]
           }
         },
         "storybook": {
@@ -79,7 +85,9 @@
         },
         "build-storybook": {
           "executor": "@nrwl/storybook:build",
-          "outputs": ["{options.outputPath}"],
+          "outputs": [
+            "{options.outputPath}"
+          ],
           "options": {
             "uiFramework": "@storybook/react",
             "outputPath": "dist/storybook/front-end",
@@ -116,7 +124,9 @@
         "lint": {
           "executor": "@nrwl/linter:eslint",
           "options": {
-            "lintFilePatterns": ["apps/front-end-e2e/**/*.{js,ts}"]
+            "lintFilePatterns": [
+              "apps/front-end-e2e/**/*.{js,ts}"
+            ]
           }
         }
       }
@@ -147,7 +157,9 @@
         },
         "test": {
           "executor": "@nrwl/jest:jest",
-          "outputs": ["coverage/apps/back-end"],
+          "outputs": [
+            "coverage/apps/back-end"
+          ],
           "options": {
             "jestConfig": "apps/back-end/jest.config.js",
             "passWithNoTests": true
@@ -156,7 +168,83 @@
         "lint": {
           "executor": "@nrwl/linter:eslint",
           "options": {
-            "lintFilePatterns": ["apps/back-end/**/*.{ts,tsx,js,jsx}"]
+            "lintFilePatterns": [
+              "apps/back-end/**/*.{ts,tsx,js,jsx}"
+            ]
+          }
+        }
+      }
+    },
+    "nuxt-client": {
+      "projectType": "application",
+      "root": "apps/nuxt-client",
+      "targets": {
+        "build": {
+          "executor": "@nx-plus/nuxt:browser",
+          "options": {
+            "buildDir": "dist/apps/nuxt-client"
+          },
+          "configurations": {
+            "production": {}
+          }
+        },
+        "serve": {
+          "executor": "@nx-plus/nuxt:server",
+          "options": {
+            "browserTarget": "nuxt-client:build",
+            "dev": true
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "nuxt-client:build:production",
+              "dev": false
+            }
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "apps/nuxt-client/**/*.{ts,js,vue}"
+            ]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": [
+            "coverage/apps/nuxt-client"
+          ],
+          "options": {
+            "jestConfig": "apps/nuxt-client/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "nuxt-client-e2e": {
+      "root": "apps/nuxt-client-e2e",
+      "sourceRoot": "apps/nuxt-client-e2e/src",
+      "projectType": "application",
+      "targets": {
+        "e2e": {
+          "executor": "@nrwl/cypress:cypress",
+          "options": {
+            "cypressConfig": "apps/nuxt-client-e2e/cypress.json",
+            "tsConfig": "apps/nuxt-client-e2e/tsconfig.e2e.json",
+            "devServerTarget": "nuxt-client:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "nuxt-client:serve:production"
+            }
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "apps/nuxt-client-e2e/**/*.{js,ts}"
+            ]
           }
         }
       }
