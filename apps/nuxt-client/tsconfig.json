@@ -6,5 +6,21 @@
     "noEmit": true,
     "types": ["node", "@nuxt/types"]
   },
-  "include": ["**/*.ts", "**/*.js", "**/*.vue"]
+  "include": ["**/*.ts", "**/*.js", "**/*.vue"],
+  "exclude": [
+    "**/*.stories.jsx",
+    "**/*.stories.tsx",
+    "**/*.stories.ts",
+    "**/*.stories.js",
+    "**/*.stories.jsx",
+    "**/*.stories.tsx"
+  ],
+  "references": [
+    {
+      "path": "./.storybook/tsconfig.json"
+    },
+    {
+      "path": "./.storybook/tsconfig.json"
+    }
+  ]
 }
