@@ -3,13 +3,8 @@
   "cli": {
     "defaultCollection": "@nrwl/next"
   },
-  "defaultProject": "front-end",
+  "defaultProject": "back-end",
   "generators": {
-    "@nrwl/react": {
-      "application": {
-        "babel": true
-      }
-    },
     "@nrwl/next": {
       "application": {
         "style": "scss",
@@ -18,50 +13,6 @@
     }
   },
   "projects": {
-    "back-end": {
-      "root": "apps/back-end",
-      "sourceRoot": "apps/back-end/src",
-      "projectType": "application",
-      "prefix": "back-end",
-      "generators": {},
-      "targets": {
-        "build": {
-          "executor": "nx-loopback-next:build",
-          "options": {
-            "main": "apps/back-end/index.js",
-            "appPath": "apps/back-end",
-            "tsConfig": "tsconfig.json"
-          },
-          "configurations": {}
-        },
-        "serve": {
-          "executor": "nx-loopback-next:execute",
-          "options": {
-            "buildTarget": "back-end:build",
-            "appPath": "apps/back-end",
-            "NODE_ENV": "development"
-          }
-        },
-        "test": {
-          "executor": "@nrwl/jest:jest",
-          "outputs": [
-            "coverage/apps/back-end"
-          ],
-          "options": {
-            "jestConfig": "apps/back-end/jest.config.js",
-            "passWithNoTests": true
-          }
-        },
-        "lint": {
-          "executor": "@nrwl/linter:eslint",
-          "options": {
-            "lintFilePatterns": [
-              "apps/back-end/**/*.{ts,tsx,js,jsx}"
-            ]
-          }
-        }
-      }
-    },
     "front-end": {
       "root": "apps/front-end",
       "sourceRoot": "apps/front-end",
@@ -116,39 +67,6 @@
               "apps/front-end/**/*.{ts,tsx,js,jsx}"
             ]
           }
-        },
-        "storybook": {
-          "executor": "@nrwl/storybook:storybook",
-          "options": {
-            "uiFramework": "@storybook/react",
-            "port": 4400,
-            "config": {
-              "configFolder": "apps/front-end/.storybook"
-            }
-          },
-          "configurations": {
-            "ci": {
-              "quiet": true
-            }
-          }
-        },
-        "build-storybook": {
-          "executor": "@nrwl/storybook:build",
-          "outputs": [
-            "{options.outputPath}"
-          ],
-          "options": {
-            "uiFramework": "@storybook/react",
-            "outputPath": "dist/storybook/front-end",
-            "config": {
-              "configFolder": "apps/front-end/.storybook"
-            }
-          },
-          "configurations": {
-            "ci": {
-              "quiet": true
-            }
-          }
         }
       }
     },
@@ -175,6 +93,50 @@
           "options": {
             "lintFilePatterns": [
               "apps/front-end-e2e/**/*.{js,ts}"
+            ]
+          }
+        }
+      }
+    },
+    "back-end": {
+      "root": "apps/back-end",
+      "sourceRoot": "apps/back-end/src",
+      "projectType": "application",
+      "prefix": "back-end",
+      "generators": {},
+      "targets": {
+        "build": {
+          "executor": "nx-loopback-next:build",
+          "options": {
+            "main": "apps/back-end/index.js",
+            "appPath": "apps/back-end",
+            "tsConfig": "tsconfig.json"
+          },
+          "configurations": {}
+        },
+        "serve": {
+          "executor": "nx-loopback-next:execute",
+          "options": {
+            "buildTarget": "back-end:build",
+            "appPath": "apps/back-end",
+            "NODE_ENV": "development"
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": [
+            "coverage/apps/back-end"
+          ],
+          "options": {
+            "jestConfig": "apps/back-end/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "apps/back-end/**/*.{ts,tsx,js,jsx}"
             ]
           }
         }
