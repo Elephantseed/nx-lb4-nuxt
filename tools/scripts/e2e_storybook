@@ -1,3 +1,4 @@
 set -ex
+killall -9 node;
 nohup sh -c 'yarn run:storybook' & \
-nx e2e front-end-e2e && tail -f nohup.out
+nx e2e front-end-e2e && killall -9 node
