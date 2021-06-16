@@ -8,7 +8,7 @@ yarn add nx-loopback-next
 yarn add -D @angular-devkit/core
 yarn add -D @angular-devkit/schematics
 yarn add -D @nrwl/cypress
-yarn add -D @nrwl/next
+yarn add -D @nrwl/angular
 yarn add -D @nrwl/next
 yarn add -D @nrwl/cypress
 yarn add -D @nrwl/jest
