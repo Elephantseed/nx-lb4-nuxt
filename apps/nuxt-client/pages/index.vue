@@ -2,7 +2,10 @@
   <div class="container">
     <div>
       <Logo />
-      <h1 class="title">nuxt-client</h1>
+      <h1 class="title">
+        nuxt-client
+      </h1>
+
       <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -51,13 +54,13 @@ export default Vue.extend({});
   letter-spacing: 1px;
 }
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
+/*.subtitle {*/
+/*  font-weight: 300;*/
+/*  font-size: 42px;*/
+/*  color: #526488;*/
+/*  word-spacing: 5px;*/
+/*  padding-bottom: 15px;*/
+/*}*/
 
 .links {
   padding-top: 15px;

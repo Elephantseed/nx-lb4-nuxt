@@ -25,13 +25,6 @@
     }
   },
   "projects": {
-    "front-end": {
-      "tags": ["scope:client"]
-    },
-    "front-end-e2e": {
-      "tags": ["scope:client"],
-      "implicitDependencies": ["front-end"]
-    },
     "back-end": {
       "tags": ["scope:server"],
       "implicitDependencies": ["nuxt-client"]
