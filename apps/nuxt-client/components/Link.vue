@@ -3,9 +3,3 @@
     NuxtJs
   </nuxt-link>
 </template>
-
-<script>
-export default {
-
-}
-</script>

@@ -1,12 +1,13 @@
 const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 const rootWebpackConfig = require('../../../.storybook/webpack.config');
+const VueLoaderPlugin = require("vue-loader/lib/plugin");
 /**
  * Export a function. Accept the base config as the only param.
  *
  * @param {Parameters<typeof rootWebpackConfig>[0]} options
  */
-module.exports = async ({ config, mode }) => {
-  config = await rootWebpackConfig({ config, mode });
+module.exports = async ({config, mode}) => {
+  config = await rootWebpackConfig({config, mode});
 
   const tsPaths = new TsconfigPathsPlugin({
     configFile: './tsconfig.base.json',
@@ -20,14 +21,16 @@ module.exports = async ({ config, mode }) => {
   // And copied the part of the solution that made it work
 
   const svgRuleIndex = config.module.rules.findIndex((rule) => {
-    const { test } = rule;
+    const {test} = rule;
 
     return test.toString().startsWith('/\\.(svg|ico');
   });
   config.module.rules[
     svgRuleIndex
-  ].test = /\.(ico|jpg|jpeg|png|gif|eot|otf|webp|ttf|woff|woff2|cur|ani|pdf)(\?.*)?$/;
-
+    ].test = /\.(ico|jpg|jpeg|png|gif|eot|otf|webp|ttf|woff|woff2|cur|ani|pdf)(\?.*)?$/;
+  config.plugins.push(
+    new VueLoaderPlugin()
+  )
   config.module.rules.push(
     {
       test: /\.(png|jpe?g|gif|webp)$/,
@@ -35,6 +38,16 @@ module.exports = async ({ config, mode }) => {
       options: {
         limit: 10000, // 10kB
         name: '[name].[hash:7].[ext]',
+      },
+    },
+    {
+      test: /\.vue$/,
+      loader: 'vue-loader',
+      options: {
+        extractCSS: true,
+        loaders: {
+          ts: 'ts-loader',
+        },
       },
     },
     {
@@ -79,6 +92,5 @@ module.exports = async ({ config, mode }) => {
       ],
     }
   );
-
   return config;
 };
