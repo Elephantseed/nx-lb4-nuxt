@@ -14,13 +14,5 @@
     "**/*.stories.js",
     "**/*.stories.jsx",
     "**/*.stories.tsx"
-  ],
-  "references": [
-    {
-      "path": "./.storybook/tsconfig.json"
-    },
-    {
-      "path": "./.storybook/tsconfig.json"
-    }
   ]
 }
