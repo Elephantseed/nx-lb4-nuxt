@@ -1,9 +1,17 @@
-const rootMain = require('../../../.storybook/main');
+const { nuxifyStorybook } = require('../.nuxt-storybook/storybook/main.js')
 
-// Use the following syntax to add addons!
-// rootMain.addons.push('');
-rootMain.stories.push(
-  ...['../stories/*.stories.mdx', '../stories/*.stories.@(js|jsx|ts|tsx)']
-);
+module.exports = nuxifyStorybook({
+  webpackFinal (config, options) {
 
-module.exports = rootMain;
+    // extend config here
+
+    return config
+  },
+  stories: [
+    // Add your stories here
+    ...['../stories/*.stories.mdx', '../stories/*.stories.@(js|jsx|ts|tsx)']
+  ],
+  addons: [
+    // Add your addons here
+  ]
+})

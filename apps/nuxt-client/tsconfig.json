@@ -6,7 +6,7 @@
     "noEmit": true,
     "types": ["node", "@nuxt/types"]
   },
-  "include": ["**/*.ts", "**/*.js", "**/*.vue"],
+  "include": ["**/*.ts", "**/*.js", "**/*.vue", "storybook/plugins"],
   "exclude": [
     "**/*.stories.jsx",
     "**/*.stories.tsx",
