@@ -6,6 +6,6 @@ describe('shared-ui', () => {
   );
 
   it('should render the component', () => {
-    cy.get('link').should('exist');
+    cy.get('a').should('exist');
   });
 });

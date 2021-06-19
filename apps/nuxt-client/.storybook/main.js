@@ -9,7 +9,7 @@ module.exports = nuxifyStorybook({
   },
   stories: [
     // Add your stories here
-    ...['../stories/*.stories.mdx', '../stories/*.stories.@(js|jsx|ts|tsx)']
+    ...['../**/*.stories.mdx', '../**/*.stories.@(js|jsx|ts|tsx)']
   ],
   addons: [
     // Add your addons here
