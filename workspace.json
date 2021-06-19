@@ -153,6 +153,16 @@
             }
           }
         },
+        "open-e2e-console": {
+          "builder": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              "cypress open --config-file cypress.json"
+            ],
+            "cwd": "apps/nuxt-client-e2e",
+            "parallel": false
+          }
+        },
         "lint": {
           "executor": "@nrwl/linter:eslint",
           "options": {

@@ -40,5 +40,6 @@ testem.log
 Thumbs.db
 
 # Storybook
+.nuxt
 .nuxt-storybook
 storybook-static

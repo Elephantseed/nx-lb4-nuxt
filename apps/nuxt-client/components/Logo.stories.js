@@ -1,5 +1,5 @@
 export default {
-  title: 'Logo'
-}
+  title: 'Logo',
+};
 
-export const NuxtWebsite = () => '<Logo />'
+export const NuxtWebsite = () => '<Logo />';
