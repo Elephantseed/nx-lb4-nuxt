@@ -48,7 +48,6 @@
     "tslib": "^2.0.0"
   },
   "devDependencies": {
-    "nx-loopback-next": "^0.0.4",
     "@angular-devkit/core": "^12.0.4",
     "@angular-devkit/schematics": "^12.0.4",
     "@babel/core": "7.12.13",
@@ -93,8 +92,10 @@
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-mocha": "^6.2.2",
     "eslint-plugin-nuxt": "^2.0.0",
+    "hotel": "^0.8.7",
     "jest": "26.2.2",
     "node-sass": "5.0.0",
+    "nx-loopback-next": "^0.0.4",
     "postcss": "^8.3.5",
     "prettier": "2.2.1",
     "source-map-support": "^0.5.16",
