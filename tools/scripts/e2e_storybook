@@ -1,4 +1,0 @@
-set -ex
-killall -9 node;
-nohup sh -c 'yarn run:storybook' & \
-nx e2e nuxt-client-e2e && killall -9 node

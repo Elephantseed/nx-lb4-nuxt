@@ -81,6 +81,17 @@
             "parallel": false
           }
         },
+        "e2e-storybook": {
+          "builder": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              "yarn run:storybook",
+              "yarn e2e nuxt-client-e2e"
+            ],
+            "cwd": "apps/nuxt-client",
+            "parallel": true
+          }
+        },
         "build": {
           "executor": "@nx-plus/nuxt:browser",
           "options": {
