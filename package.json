@@ -20,11 +20,11 @@
     "format": "nx format:write",
     "format:write": "nx format:write",
     "format:check": "nx format:check",
-    "open:e2e:console": "echo 'this command is still a W.I.P' && cypress open",
     "update": "nx migrate latest",
     "workspace-generator": "nx workspace-generator",
     "dep-graph": "nx dep-graph",
     "help": "nx help",
+    "open:e2e:console": "nx open-e2e-console",
     "run:storybook": "nx run nuxt-client:storybook",
     "ci": "yarn;nx run-many --target=build --all --parallel;nx run-many --target=test --all --parallel;nx e2e-storybook",
     "e2e:storybook": "nx e2e-storybook"
@@ -43,12 +43,12 @@
     "core-js": "^3.6.5",
     "document-register-element": "1.13.1",
     "nuxt": "2.15.3",
-    "nx-loopback-next": "^0.0.4",
     "prop-types": "^15.7.2",
     "regenerator-runtime": "0.13.7",
     "tslib": "^2.0.0"
   },
   "devDependencies": {
+    "nx-loopback-next": "^0.0.4",
     "@angular-devkit/core": "^12.0.4",
     "@angular-devkit/schematics": "^12.0.4",
     "@babel/core": "7.12.13",
