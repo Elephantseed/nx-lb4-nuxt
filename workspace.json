@@ -88,6 +88,7 @@
               "yarn run:storybook",
               "yarn e2e nuxt-client-e2e"
             ],
+            "readyWhen": "All specs passed",
             "cwd": "apps/nuxt-client",
             "parallel": true
           }
