@@ -19,22 +19,34 @@
           "lint",
           "test",
           "e2e",
-          "build-storybook"
+          "build-storybook",
+          "e2e-storybook",
+          "storybook"
         ]
       }
     }
   },
   "projects": {
     "back-end": {
-      "tags": ["scope:server"],
-      "implicitDependencies": ["nuxt-client"]
+      "tags": [
+        "scope:server"
+      ],
+      "implicitDependencies": [
+        "nuxt-client"
+      ]
     },
     "nuxt-client": {
-      "tags": ["scope:client"]
+      "tags": [
+        "scope:client"
+      ]
     },
     "nuxt-client-e2e": {
-      "tags": ["scope:client"],
-      "implicitDependencies": ["nuxt-client"]
+      "tags": [
+        "scope:client"
+      ],
+      "implicitDependencies": [
+        "nuxt-client"
+      ]
     }
   }
 }
