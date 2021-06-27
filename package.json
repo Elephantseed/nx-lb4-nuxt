@@ -26,8 +26,8 @@
     "help": "nx help",
     "open:e2e:console": "nx open-e2e-console",
     "run:storybook": "nx run nuxt-client:storybook",
-    "ci": "yarn;nx run-many --target=build --all --parallel;nx run-many --target=test --all --parallel;nx e2e-storybook",
-    "e2e:storybook": "nx e2e-storybook"
+    "ci": "yarn && nx run-many --target=build --all --parallel && nx run-many --target=test --all --parallel && nx e2e-storybook --parallel",
+    "e2e:storybook": "nx e2e-storybook --parallel"
   },
   "private": true,
   "dependencies": {
