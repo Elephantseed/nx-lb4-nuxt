@@ -62,7 +62,7 @@
       "root": "apps/nuxt-client",
       "targets": {
         "storybook": {
-          "builder": "@nrwl/workspace:run-commands",
+          "executor": "@nrwl/workspace:run-commands",
           "options": {
             "commands": [
               "nuxt storybook"
@@ -72,7 +72,7 @@
           }
         },
         "build-storybook": {
-          "builder": "@nrwl/workspace:run-commands",
+          "executor": "@nrwl/workspace:run-commands",
           "options": {
             "commands": [
               "nuxt storybook build"
@@ -82,7 +82,7 @@
           }
         },
         "e2e-storybook": {
-          "builder": "@nrwl/workspace:run-commands",
+          "executor": "@nrwl/workspace:run-commands",
           "options": {
             "commands": [
               "yarn run:storybook",
@@ -154,7 +154,7 @@
           }
         },
         "open-e2e-console": {
-          "builder": "@nrwl/workspace:run-commands",
+          "executor": "@nrwl/workspace:run-commands",
           "options": {
             "commands": [
               "cypress open --config-file cypress.json"
