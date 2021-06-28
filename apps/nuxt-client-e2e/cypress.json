@@ -7,7 +7,7 @@
   "integrationFolder": "./src/integration",
   "testFiles": "**/*.{feature,features}",
   "modifyObstructiveCode": false,
-  "pluginsFile": "./src/plugins/index",
+  "pluginsFile": "./src/plugins/index.js",
   "supportFile": "./src/support/index.js",
   "video": true,
   "videosFolder": "../../dist/cypress/apps/nuxt-client-e2e/videos",

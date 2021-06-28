@@ -59,6 +59,7 @@
     "@babel/preset-env": "7.12.13",
     "@babel/preset-react": "7.12.13",
     "@babel/preset-typescript": "7.12.13",
+    "@cypress/webpack-preprocessor": "^5.9.1",
     "@loopback/build": "^3.0.0",
     "@loopback/eslint-config": "^5.0.0",
     "@loopback/testlab": "^1.10.0",

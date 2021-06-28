@@ -5,6 +5,8 @@ import {getGreeting} from '../../support/app.po';
 When(/^I add (.*) and (.*)$/, (email, password) => {
   cy.visit('/')
   // Custom command example, see `../support/commands.ts` file
+  // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
+  // @ts-ignore
   cy.login(email, password);
 });
 Then(/^I verify that the greeting equals the (.*)$/, (greeting) => {
