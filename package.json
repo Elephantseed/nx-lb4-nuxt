@@ -2,6 +2,10 @@
   "name": "nx-lb4",
   "version": "0.0.0",
   "license": "MIT",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "./src/integration"
+  },
   "scripts": {
     "nx": "nx",
     "start": "nx serve",
@@ -27,6 +31,7 @@
     "open:e2e:console": "nx open-e2e-console",
     "run:storybook": "nx run nuxt-client:storybook",
     "ci": "yarn && nx run-many --target=build --all --parallel && nx run-many --target=test --all --parallel && nx e2e-storybook --parallel",
+    "ci:skip:cache": "yarn --skip-nx-cache && nx run-many --target=build --all --parallel --skip-nx-cache && nx run-many --target=test --all --parallel --skip-nx-cache && nx e2e-storybook --parallel --skip-nx-cache",
     "e2e:storybook": "nx e2e-storybook --parallel"
   },
   "private": true,
@@ -54,6 +59,7 @@
     "@babel/preset-env": "7.12.13",
     "@babel/preset-react": "7.12.13",
     "@babel/preset-typescript": "7.12.13",
+    "@cypress/webpack-preprocessor": "^5.9.1",
     "@loopback/build": "^3.0.0",
     "@loopback/eslint-config": "^5.0.0",
     "@loopback/testlab": "^1.10.0",
@@ -83,8 +89,12 @@
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "26.2.2",
     "babel-loader": "8.1.0",
+    "cucumber": "^7.0.0-rc.0",
+    "cucumber-html-reporter": "^5.4.0",
     "cypress": "^7.5.0",
+    "cypress-cucumber-preprocessor": "^4.1.2",
     "dotenv": "8.2.0",
+    "ephimerald": "sloppylopez/ephimerald",
     "eslint": "^7.28.0",
     "eslint-config-prettier": "^6.7.0",
     "eslint-plugin-cypress": "^2.10.3",
