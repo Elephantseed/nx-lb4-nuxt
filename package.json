@@ -31,6 +31,7 @@
     "open:e2e:console": "nx open-e2e-console",
     "run:storybook": "nx run nuxt-client:storybook",
     "ci": "yarn && nx run-many --target=build --all --parallel && nx run-many --target=test --all --parallel && nx e2e-storybook --parallel",
+    "ci:skip:cache": "yarn --skip-nx-cache && nx run-many --target=build --all --parallel --skip-nx-cache && nx run-many --target=test --all --parallel --skip-nx-cache && nx e2e-storybook --parallel --skip-nx-cache",
     "e2e:storybook": "nx e2e-storybook --parallel"
   },
   "private": true,

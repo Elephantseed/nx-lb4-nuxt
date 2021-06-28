@@ -1,4 +1,0 @@
-{
-  "baseUrl": "http://your_domain",
-  "e2eDatabaseJobApi": "https://some-server-production.com/e2e-api/"
-}
