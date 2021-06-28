@@ -2,6 +2,10 @@
   "name": "nx-lb4",
   "version": "0.0.0",
   "license": "MIT",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "./src/integration"
+  },
   "scripts": {
     "nx": "nx",
     "start": "nx serve",
@@ -83,8 +87,12 @@
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "26.2.2",
     "babel-loader": "8.1.0",
+    "cucumber": "^7.0.0-rc.0",
+    "cucumber-html-reporter": "^5.4.0",
     "cypress": "^7.5.0",
+    "cypress-cucumber-preprocessor": "^4.1.2",
     "dotenv": "8.2.0",
+    "ephimerald": "sloppylopez/ephimerald",
     "eslint": "^7.28.0",
     "eslint-config-prettier": "^6.7.0",
     "eslint-plugin-cypress": "^2.10.3",
