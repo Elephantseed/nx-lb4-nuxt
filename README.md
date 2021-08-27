@@ -1,4 +1,12 @@
+# Quickstart
 
+```shell
+$ killall -9 node
+$ yarn install
+$ yarn build
+$ yarn start
+$ yarn ci
+```
 
 # NxLb4
 
