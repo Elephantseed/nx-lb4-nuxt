@@ -6,6 +6,9 @@
     "nonGlobalStepDefinitions": true,
     "stepDefinitions": "./src/integration"
   },
+  "engines": {
+    "node":">=12.20.0"
+  },
   "scripts": {
     "nx": "nx",
     "start": "nx serve",
