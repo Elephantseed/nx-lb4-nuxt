@@ -106,7 +106,7 @@
     "jest": "26.2.2",
     "node-sass": "5.0.0",
     "nx-loopback-next": "^0.0.4",
-    "postcss": "^8.3.5",
+    "postcss": "^8.3.6",
     "prettier": "2.2.1",
     "source-map-support": "^0.5.16",
     "ts-jest": "26.5.5",
