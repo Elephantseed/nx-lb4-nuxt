@@ -1,6 +1,10 @@
 module.exports = {
   displayName: 'nuxt-client',
   preset: '../../jest.preset.js',
+  globals: {
+    'ts-jest': { tsconfig: '<rootDir>/tsconfig.spec.json' },
+    'vue-jest': { tsConfig: 'apps/nuxt-client/tsconfig.spec.json' },
+  },
   transform: {
     '.*\\.(vue)$': 'vue-jest',
     '^.+\\.ts$': 'ts-jest',
@@ -13,9 +17,5 @@ module.exports = {
   ],
   moduleNameMapper: {
     '^vue$': 'vue/dist/vue.common.js',
-  },
-  globals: {
-    'ts-jest': { tsconfig: '<rootDir>/tsconfig.spec.json' },
-    'vue-jest': { tsConfig: 'apps/nuxt-client/tsconfig.spec.json' },
   },
 };
