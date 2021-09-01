@@ -6,9 +6,6 @@
     "nonGlobalStepDefinitions": true,
     "stepDefinitions": "./src/integration"
   },
-  "engines": {
-    "node":">=12.20.0"
-  },
   "scripts": {
     "nx": "nx",
     "start": "nx serve",
@@ -34,8 +31,8 @@
     "help": "nx help",
     "open:e2e:console": "nx open-e2e-console",
     "run:storybook": "nx run nuxt-client:storybook",
-    "ci": "sh scripts/macOS/ci",
-    "ci:silent": "sh scripts/macOS/ci_silent",
+    "ci": "sh tools/scripts/macOS/ci || exit 2",
+    "ci:silent": "sh tools/scripts/macOS/ci_silent || exit 2",
     "preview:e2e:errors": "open dist/cypress/apps/nuxt-client-e2e/screenshots/*.feature/*.png",
     "prepare": "husky install"
   },
@@ -52,6 +49,7 @@
     "@nuxt/typescript-runtime": "^2.0.1",
     "core-js": "^3.6.5",
     "document-register-element": "1.13.1",
+    "lolcat": "^1.0.0",
     "nuxt": "2.15.3",
     "prop-types": "^15.7.2",
     "regenerator-runtime": "0.13.7",
@@ -73,6 +71,7 @@
     "@nrwl/eslint-plugin-nx": "12.3.6",
     "@nrwl/jest": "12.3.6",
     "@nrwl/linter": "12.3.6",
+    "@nrwl/next": "^12.8.0",
     "@nrwl/node": "^12.8.0",
     "@nrwl/react": "^12.4.0",
     "@nrwl/storybook": "12.3.6",
@@ -81,6 +80,7 @@
     "@nuxt/types": "2.14.12",
     "@nuxt/typescript-build": "^2.0.4",
     "@nuxtjs/eslint-config-typescript": "^5.0.0",
+    "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/storybook": "^4.0.4",
     "@nuxtjs/tailwindcss": "^4.1.3",
     "@nx-plus/nuxt": "^12.0.0",

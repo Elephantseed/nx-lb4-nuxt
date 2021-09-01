@@ -1,5 +1,5 @@
 import { mount } from '@vue/test-utils';
-import Link from '../components/Link.vue';
+import Link from '../components/ui/Link.vue';
 
 describe('Link', () => {
   test('is a Vue instance', () => {
