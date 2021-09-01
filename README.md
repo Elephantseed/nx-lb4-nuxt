@@ -4,8 +4,8 @@
 $ killall -9 node
 $ yarn install
 $ yarn build
-$ yarn start
 $ yarn ci
+$ yarn start
 ```
 
 # NxLb4
@@ -106,3 +106,4 @@ Visit [Nx Cloud](https://nx.app/) to learn more.
   - https://github.com/storybookjs/storybook/tree/master/addons/knobs
   - http://localhost:4402/?path=/story/common-button--default-button
   - https://geekflare.com/storybook-in-react/
+  - https://nerdcave.com/tailwind-cheat-sheet
