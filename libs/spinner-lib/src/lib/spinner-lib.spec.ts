@@ -1,7 +1,8 @@
-import { spinnerLib } from 'spinner-lib';
+import { SpinnerLib } from 'spinner-lib';
 
 describe('spinnerLib', () => {
   it('should work', () => {
-    expect(spinnerLib()).toEqual('spinner-lib');
+    const spinnerLib = new SpinnerLib()
+    expect(spinnerLib).toHaveProperty('spinner');
   });
 });
