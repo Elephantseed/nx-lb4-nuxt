@@ -1,11 +1,11 @@
-import ora, {Ora} from 'ora';
+import ora from 'ora';
 
 export class SpinnerLib {
-  get spinner(): Ora {
+  get spinner(): any {
     return this._spinner;
   }
 
-  private readonly _spinner: Ora;
+  private readonly _spinner: any;
 
   constructor() {
     this._spinner = ora('Loading unicorns').start();
@@ -17,5 +17,9 @@ export class SpinnerLib {
       this._spinner.text = 'Loading rainbows';
     }, 1000);
   }
+}
+
+export function nodeServerLib(): string {
+  return 'node-server-lib';
 }
 
