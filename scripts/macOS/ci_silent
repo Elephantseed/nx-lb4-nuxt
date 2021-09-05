@@ -1,0 +1,6 @@
+#!/bin/sh
+set -ex
+
+sh scripts/macOS/common/prepare_monorepo_for_e2e &> /dev/null
+yarn e2e:headless nuxt-client-e2e &> /dev/null ||
+yarn preview:e2e:errors

@@ -6,6 +6,14 @@ $ yarn install
 $ yarn build
 $ yarn ci
 $ yarn start
+$ open http://localhost:3000
+$ open http://localhost:3000/_tailwind
+```
+
+#Commands
+
+```shell
+$ nx g @nrwl/node:lib --name spinner --publishable --importPath spinner
 ```
 
 # NxLb4
