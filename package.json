@@ -33,7 +33,8 @@
     "run:storybook": "nx run nuxt-client:storybook",
     "ci": "sh scripts/macOS/ci",
     "ci:silent": "sh scripts/macOS/ci_silent",
-    "preview:e2e:errors": "open dist/cypress/apps/nuxt-client-e2e/screenshots/*.feature/*.png"
+    "preview:e2e:errors": "open dist/cypress/apps/nuxt-client-e2e/screenshots/*.feature/*.png",
+    "prepare": "husky install"
   },
   "private": true,
   "dependencies": {
@@ -106,6 +107,7 @@
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-mocha": "^6.2.2",
     "eslint-plugin-nuxt": "^2.0.0",
+    "husky": "^7.0.2",
     "jest": "26.2.2",
     "node-sass": "5.0.0",
     "nx-loopback-next": "^0.0.4",
@@ -125,3 +127,4 @@
     "vue-template-compiler": "^2.6.14"
   }
 }
+
