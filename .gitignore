@@ -43,6 +43,7 @@ Thumbs.db
 .nuxt
 .nuxt-storybook
 storybook-static
+.storybook
 
 # Libs deps
 libs/**/node_modules

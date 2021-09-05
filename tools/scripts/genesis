@@ -1,13 +1,10 @@
-## This file contains the dependencies and commands used to create the scaffolding for this seed.
-set -ex
-
 # Create workspace
 yarn create nx-workspace --name nx-lb4 --preset empty --interactive false --nx-cloud false
 
 # Add loopback community supported plugin
 yarn add nx-loopback-next
 
-# Add nx offically supported plugin
+# Add nx officially supported plugin
 yarn add -D @nrwl/cypress
 yarn add -D @nrwl/@nrwl/node
 yarn add -D @nrwl/jest

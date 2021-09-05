@@ -31,8 +31,8 @@
     "help": "nx help",
     "open:e2e:console": "nx open-e2e-console",
     "run:storybook": "nx run nuxt-client:storybook",
-    "ci": "sh scripts/macOS/ci",
-    "ci:silent": "sh scripts/macOS/ci_silent",
+    "ci": "sh tools/scripts/macOS/ci || exit 2",
+    "ci:silent": "sh tools/scripts/macOS/ci_silent || exit 2",
     "preview:e2e:errors": "open dist/cypress/apps/nuxt-client-e2e/screenshots/*.feature/*.png",
     "prepare": "husky install"
   },
@@ -71,6 +71,7 @@
     "@nrwl/eslint-plugin-nx": "12.3.6",
     "@nrwl/jest": "12.3.6",
     "@nrwl/linter": "12.3.6",
+    "@nrwl/next": "^12.8.0",
     "@nrwl/node": "^12.8.0",
     "@nrwl/react": "^12.4.0",
     "@nrwl/storybook": "12.3.6",
@@ -127,4 +128,3 @@
     "vue-template-compiler": "^2.6.14"
   }
 }
-
