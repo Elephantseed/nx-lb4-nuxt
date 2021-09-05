@@ -6,6 +6,10 @@ module.exports = nuxifyStorybook({
 
     return config;
   },
+  stories: [
+    // Add your stories here
+    ...['../components/*.stories.mdx', '../components/*.stories.@(js|jsx|ts|tsx)']
+  ],
   addons: [
     // Add your addons here
     '@storybook/addon-knobs/register'
