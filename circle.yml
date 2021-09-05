@@ -23,7 +23,7 @@ jobs:
       - image: circleci/node:12.20.0
     steps:
       - checkout
-      - run: yarn test
+      - run: yarn; yarn test
 
 # Orchestrate our job run sequence
 workflows:
