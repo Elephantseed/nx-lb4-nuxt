@@ -6,14 +6,13 @@ $ yarn install
 $ yarn build
 $ yarn ci
 $ yarn start
-$ open http://localhost:3000
-$ open http://localhost:3000/_tailwind
+$ open http://localhost:3000 && open http://localhost:3000/_tailwind
 ```
 
-#Commands
+# Storybook
 
 ```shell
-$ nx g @nrwl/node:lib --name spinner --publishable --importPath spinner
+$ yarn run:storybook
 ```
 
 # NxLb4
