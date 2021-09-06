@@ -1,3 +1,9 @@
+# Intro
+
+This is a seed with Nx, Loopback 4, Tailwind, Storybook and Cucumber
+to develop *SPA* in a frictionless fashion, no *CSS's* were harmed in the 
+making of this project 😇.
+
 # Quickstart
 
 ```shell
