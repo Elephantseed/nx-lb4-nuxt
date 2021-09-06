@@ -8,6 +8,6 @@ Feature: Being a client on storybook scenario outline
     Then I verify the component exists with id <id>
 
     Examples:
-      | component | id   |
+      | component | id    |
       | logo      | #logo |
 

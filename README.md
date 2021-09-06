@@ -1,14 +1,15 @@
 # Intro
 
-This is a seed with Nx, Loopback 4, Tailwind, Storybook and Cucumber
-to develop *SPA* in a frictionless fashion, no *CSS's* were harmed in the 
+Enterprise-level Nx, Webpack 5, Loopback 4, Nuxt, Storybook, 
+and Tailwind for a frictionless development of Monorepos using 
+Cucumber, Gherkin, and BDD, no *CSS* was harmed in the 
 making of this project 😇.
 
 # Quickstart
 
 ```shell
 $ killall -9 node
-$ yarn install
+$ yarn
 $ yarn build
 $ yarn ci
 $ yarn start
