@@ -6,9 +6,7 @@
       />
       <div class="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
         <div class="max-w-md mx-auto">
-          <div class="animate-pulse">
-            <Logo class="h-28 sm:h-32 animate-pulse text-center" />
-          </div>
+          <Logo class="h-28 sm:h-32 animate-pulse max-w-md mx-auto" />
           <div class="divide-y divide-gray-200">
             <div class="py-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
               <h1 class="text-6xl text-center font-normal leading-normal mt-0 mb-2 text-emerald-800">
@@ -59,7 +57,9 @@
                     </svg>
                   </span>
                   <p class="ml-2">
-                    Get the best development experience writing components <code class="text-sm font-bold text-gray-900">without</code> touching a css using
+                    Get the best development experience writing components <code
+                      class="text-sm font-bold text-gray-900"
+                    >without</code> touching a css using
                     <a
                       href="https://tailwindcss.com/"
                       target="_blank"
@@ -81,7 +81,8 @@
                     </svg>
                   </span>
                   <p class="ml-2">
-                    Write BBD tests to avoid <code class="text-sm font-bold text-gray-900">problems</code> using Gherking language
+                    Write BBD tests to avoid <code class="text-sm font-bold text-gray-900">problems</code> using
+                    Gherking language
                   </p>
                 </li>
               </ul>
@@ -111,5 +112,6 @@
 
 <script lang="ts">
 import Vue from "vue";
+
 export default Vue.extend({});
 </script>
