@@ -39,11 +39,14 @@ testem.log
 .DS_Store
 Thumbs.db
 
-# Storybook
+# Nuxt
 .nuxt
+
+# Storybook
 .nuxt-storybook
 storybook-static
 .storybook
+
 
 # Libs deps
 libs/**/node_modules
