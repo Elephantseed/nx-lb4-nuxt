@@ -32,8 +32,8 @@
     "help": "nx help",
     "open:e2e:console": "nx run nuxt-client-e2e:open-e2e-console",
     "run:storybook": "nx run nuxt-client:storybook",
-    "ci": "sh tools/scripts/macOS/ci; yarn e2e nuxt-client-e2e || yarn preview:e2e:errors",
-    "ci:silent": "sh tools/scripts/macOS/ci_silent; yarn e2e:headless nuxt-client-e2e || yarn preview:e2e:errors",
+    "ci": "sh tools/scripts/macOS/common/prepare_monorepo_for_e2e; yarn e2e nuxt-client-e2e || yarn preview:e2e:errors",
+    "ci:silent": "sh tools/scripts/macOS/common/prepare_monorepo_for_e2e &> /dev/null; yarn e2e:headless nuxt-client-e2e || yarn preview:e2e:errors",
     "preview:e2e:errors": "sh tools/scripts/macOS/preview_e2e_errors",
     "prepare": "husky install"
   },

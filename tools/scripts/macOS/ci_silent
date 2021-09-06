@@ -1,2 +1,0 @@
-#!/bin/sh
-sh tools/scripts/macOS/common/prepare_monorepo_for_e2e &> /dev/null
