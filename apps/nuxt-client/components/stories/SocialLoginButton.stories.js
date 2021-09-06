@@ -1,4 +1,4 @@
-import SocialLoginButton from '../SocialLoginButton.vue'
+import SocialLoginButton from '../auth/SocialLoginButton.vue'
 import { getOptionsArgTypes } from '~/helpers/storybook'
 
 const socialOptions = {

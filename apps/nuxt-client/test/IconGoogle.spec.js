@@ -1,5 +1,5 @@
 import { mount } from '@vue/test-utils';
-import IconGoogle from '../components/IconGoogle';
+import IconGoogle from '../components/icons/IconGoogle';
 
 describe('IconGoogle', () => {
   test('is a Vue instance', () => {

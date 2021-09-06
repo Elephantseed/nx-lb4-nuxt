@@ -1,5 +1,5 @@
 import { mount } from '@vue/test-utils';
-import IconGithub from '../components/IconGithub.vue';
+import IconGithub from '../components/icons/IconGithub.vue';
 
 describe('IconGithub', () => {
   test('is a Vue instance', () => {

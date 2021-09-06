@@ -13,8 +13,8 @@
 export default {
   name: 'SocialLoginButton',
   components: {
-    IconGoogle: () => import('@/components/IconGoogle.vue'),
-    IconGithub: () => import('@/components/IconGithub.vue'),
+    IconGoogle: () => import('@/components/icons/IconGoogle.vue'),
+    IconGithub: () => import('@/components/icons/IconGithub.vue'),
   },
   props: {
     type: {

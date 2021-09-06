@@ -1,4 +1,4 @@
-import Logo from '../Logo.vue'
+import Logo from '../icons/Logo.vue'
 
 export default {
   title: 'Logo',
