@@ -1,6 +1,4 @@
 #!/bin/sh
-#set -ex
-
 yarn
 nx run-many --target=build --all --parallel
 nx run-many --target=test --all --parallel

@@ -1,5 +1,0 @@
-#!/bin/sh
-set -ex
-
-npx -c "printf 'Bugs detected in E2E Tests';" | npx cowsay -W 140 -f biohazard | npx lolcat -a -s 100
-open cypress/screenshots/*/*.feature/*.png || echo '⚠️ Something went wrong while trying to open the cypress screenshots...'

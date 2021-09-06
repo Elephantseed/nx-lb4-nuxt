@@ -22,6 +22,7 @@
     "affected:lint": "nx affected:lint",
     "affected:dep-graph": "nx affected:dep-graph",
     "affected": "nx affected",
+    "custom:prepush": "rimraf dist/cypress/apps/nuxt-client-e2e/screenshots/*.feature/*.png && (nx custom-prepush || (yarn preview:e2e:errors 'cypress/screenshots/*/*.feature/*.png' || echo 'No images to preview')",
     "format": "nx format:write",
     "format:write": "nx format:write",
     "format:check": "nx format:check",
@@ -31,8 +32,8 @@
     "help": "nx help",
     "open:e2e:console": "nx run nuxt-client-e2e:open-e2e-console",
     "run:storybook": "nx run nuxt-client:storybook",
-    "ci": "sh tools/scripts/macOS/ci || exit 2",
-    "ci:silent": "sh tools/scripts/macOS/ci_silent || exit 2",
+    "ci": "sh tools/scripts/macOS/ci; yarn e2e nuxt-client-e2e || yarn preview:e2e:errors",
+    "ci:silent": "sh tools/scripts/macOS/ci_silent; yarn e2e nuxt-client-e2e || yarn preview:e2e:errors",
     "preview:e2e:errors": "open dist/cypress/apps/nuxt-client-e2e/screenshots/*.feature/*.png",
     "prepare": "husky install"
   },

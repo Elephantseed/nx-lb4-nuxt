@@ -9,4 +9,4 @@ Feature: Being a client scenario outline
 
     Examples:
       | url                     | h1Text             |
-      | /                       | Elephant Seed      |
+      | /                       | Elephant Seed2      |
