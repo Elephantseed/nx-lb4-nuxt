@@ -2,7 +2,7 @@
 
 Enterprise-level Nx, Webpack 5, Loopback 4, Nuxt, Storybook, 
 and Tailwind for a frictionless development of Monorepos using 
-Cucumber, Gherkin, and BDD, no *CSS's* were harmed in the 
+Cucumber, Gherkin, and BDD, no *CSS* was harmed in the 
 making of this project 😇.
 
 # Quickstart
