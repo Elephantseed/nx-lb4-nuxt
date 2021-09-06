@@ -5,7 +5,7 @@ module.exports = {
     'plugin:nuxt/recommended',
     'prettier',
   ],
-  ignorePatterns: ['!**/*', '.eslintrc.js'],
+  ignorePatterns: ['!**/*', '.eslintrc.js', 'node_modules'],
   env: {
     browser: true,
     node: true,

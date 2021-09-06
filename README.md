@@ -1,3 +1,9 @@
+# Intro
+
+This is a seed with Nx, Loopback 4, Tailwind, Storybook and Cucumber
+to develop *SPA* in a frictionless fashion, no *CSS's* were harmed in the 
+making of this project 😇.
+
 # Quickstart
 
 ```shell
@@ -6,14 +12,13 @@ $ yarn install
 $ yarn build
 $ yarn ci
 $ yarn start
-$ open http://localhost:3000
-$ open http://localhost:3000/_tailwind
+$ open http://localhost:3000 && open http://localhost:3000/_tailwind
 ```
 
-#Commands
+# Storybook
 
 ```shell
-$ nx g @nrwl/node:lib --name spinner --publishable --importPath spinner
+$ yarn run:storybook
 ```
 
 # NxLb4
