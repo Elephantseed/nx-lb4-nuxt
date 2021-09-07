@@ -6,7 +6,7 @@
       />
       <div class="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
         <div class="max-w-md mx-auto">
-          <Logo class="h-28 sm:h-32 animate-pulse max-w-md mx-auto" />
+          <IconsLogo class="h-28 sm:h-32 animate-pulse max-w-md mx-auto" />
           <div class="divide-y divide-gray-200">
             <div class="py-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
               <h1 class="text-6xl text-center font-normal leading-normal mt-0 mb-2 text-emerald-800">
