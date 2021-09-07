@@ -101,8 +101,6 @@ Run `nx dep-graph` to see a diagram of the dependencies of your projects.
 
 Visit the [Nx Documentation](https://nx.dev) to learn more.
 
-
-
 ## ☁ Nx Cloud
 
 ### Distributed Computation Caching & Distributed Task Execution
@@ -119,6 +117,9 @@ Visit [Nx Cloud](https://nx.app/) to learn more.
 
   - https://www.componentdriven.org/
   - https://github.com/storybookjs/storybook/tree/master/addons/knobs
-  - http://localhost:4402/?path=/story/common-button--default-button
   - https://geekflare.com/storybook-in-react/
   - https://nerdcave.com/tailwind-cheat-sheet
+
+##Known issues
+
+ - https://github.com/nrwl/nx/issues/1777
