@@ -1,3 +1,20 @@
+
+# Quickstart
+
+```shell
+killall -9 node
+yarn install
+yarn build
+yarn start
+yarn ci
+```
+
+# Helpful commands
+
+```shell
+nx run nuxt-client:build
+nx run back-end:build
+
 # Intro
 
 Enterprise-level Nx, Webpack 5, Loopback 4, Nuxt, Storybook, 

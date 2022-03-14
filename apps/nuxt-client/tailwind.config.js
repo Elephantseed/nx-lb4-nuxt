@@ -1,24 +1,43 @@
-const colors = require('tailwindcss/colors')
+// module.exports = {
+//   mode: 'jit',
+//   purge: [],
+//   darkMode: false, // or 'media' or 'class'
+//   theme: {
+//     extend: {},
+//   },
+//   variants: {
+//     extend: {},
+//   },
+//   plugins: [],
+// };
 
+const colors = require("tailwindcss/colors");
 module.exports = {
-  mode: 'jit',
-  purge: [
-    './components/**/*.{vue,js}',
-    './layouts/**/*.vue',
-    './pages/**/*.vue',
-    './plugins/**/*.{js,ts}',
-    './nuxt.config.{js,ts}',
-  ],
+  purge: {
+    mode: "layers",
+    enabled: process.env.NODE_ENV === "production",
+    content: [
+      "components/**/*.vue",
+      "layouts/**/*.vue",
+      "pages/**/*.vue",
+      "plugins/**/*.js",
+      "nuxt.config.js",
+      // TypeScript
+      "plugins/**/*.ts",
+      "nuxt.config.ts"
+    ]
+  },
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       colors: {
-        overwrittenGreen: colors.green, // Use this to overwrite arbitrary properties like a 'color'
-      },
-    },
+        emerald: colors.emerald,
+        gray: colors.trueGray
+      }
+    }
   },
   variants: {
-    extend: {},
+    extend: {}
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/forms")]
 };
