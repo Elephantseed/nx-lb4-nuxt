@@ -1,3 +1,4 @@
+
 # Quickstart
 
 ```shell
@@ -13,6 +14,29 @@ yarn ci
 ```shell
 nx run nuxt-client:build
 nx run back-end:build
+
+# Intro
+
+Enterprise-level Nx, Webpack 5, Loopback 4, Nuxt, Storybook, 
+and Tailwind for a frictionless development of Monorepos using 
+Cucumber, Gherkin, and BDD, no *CSS* was harmed in the 
+making of this project 😇.
+
+# Quickstart
+
+```shell
+$ killall -9 node
+$ yarn
+$ yarn build
+$ yarn ci
+$ yarn start
+$ open http://localhost:3000 && open http://localhost:3000/_tailwind
+```
+
+# Storybook
+
+```shell
+$ yarn run:storybook
 ```
 
 # NxLb4
@@ -110,6 +134,8 @@ Visit [Nx Cloud](https://nx.app/) to learn more.
 
 ##Useful links
 
+  - https://www.componentdriven.org/
   - https://github.com/storybookjs/storybook/tree/master/addons/knobs
   - http://localhost:4402/?path=/story/common-button--default-button
   - https://geekflare.com/storybook-in-react/
+  - https://nerdcave.com/tailwind-cheat-sheet

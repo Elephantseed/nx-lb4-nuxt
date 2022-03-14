@@ -36,6 +36,19 @@ export default {
    */
   components: true,
   /*
+  ** Storybook
+  */
+  storybook: {
+    addons: [
+      // Add your addons here
+      '@storybook/addon-knobs/register'
+    ]
+  },
+  /*
+  ** Nuxt.js env variables
+  */
+  env:{},
+  /*
    ** Nuxt.js dev-modules
    */
   buildModules: ['@nuxt/typescript-build', '@nuxtjs/tailwindcss'],

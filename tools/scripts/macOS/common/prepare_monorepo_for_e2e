@@ -1,0 +1,5 @@
+#!/bin/sh
+yarn
+nx run-many --target=build --all --parallel
+nx run-many --target=test --all --parallel
+nohup yarn run:storybook &

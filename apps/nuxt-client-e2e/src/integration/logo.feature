@@ -4,10 +4,10 @@ Feature: Being a client on storybook scenario outline
   I want to render the component and check that works properly
 
   Scenario Outline: Using Scenario Outlines
-    When I visit the <component> on storybook
-    Then I verify the component exists
+    When I visit the component <component> on storybook
+    Then I verify the component exists with id <id>
 
     Examples:
-      | component |
-      | link      |
+      | component | id    |
+      | logo      | #logo |
 

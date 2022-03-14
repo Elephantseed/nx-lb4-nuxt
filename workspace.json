@@ -39,9 +39,7 @@
         },
         "test": {
           "executor": "@nrwl/jest:jest",
-          "outputs": [
-            "coverage/apps/back-end"
-          ],
+          "outputs": ["coverage/apps/back-end"],
           "options": {
             "jestConfig": "apps/back-end/jest.config.js",
             "passWithNoTests": true
@@ -50,9 +48,7 @@
         "lint": {
           "executor": "@nrwl/linter:eslint",
           "options": {
-            "lintFilePatterns": [
-              "apps/back-end/**/*.{ts,tsx,js,jsx}"
-            ]
+            "lintFilePatterns": ["apps/back-end/**/*.{ts,tsx,js,jsx}"]
           }
         }
       }
@@ -64,9 +60,7 @@
         "storybook": {
           "executor": "@nrwl/workspace:run-commands",
           "options": {
-            "commands": [
-              "nuxt storybook"
-            ],
+            "commands": ["nuxt storybook"],
             "cwd": "apps/nuxt-client",
             "parallel": false
           }
@@ -74,23 +68,9 @@
         "build-storybook": {
           "executor": "@nrwl/workspace:run-commands",
           "options": {
-            "commands": [
-              "nuxt storybook build"
-            ],
+            "commands": ["nuxt storybook build"],
             "cwd": "apps/nuxt-client",
             "parallel": false
-          }
-        },
-        "e2e-storybook": {
-          "executor": "@nrwl/workspace:run-commands",
-          "options": {
-            "commands": [
-              "yarn run:storybook",
-              "yarn e2e nuxt-client-e2e"
-            ],
-            "readyWhen": "All specs passed",
-            "cwd": "apps/nuxt-client",
-            "parallel": true
           }
         },
         "build": {
@@ -118,16 +98,12 @@
         "lint": {
           "executor": "@nrwl/linter:eslint",
           "options": {
-            "lintFilePatterns": [
-              "apps/nuxt-client/**/*.{ts,js,vue}"
-            ]
+            "lintFilePatterns": ["apps/nuxt-client/**/*.{ts,js,vue}"]
           }
         },
         "test": {
           "executor": "@nrwl/jest:jest",
-          "outputs": [
-            "coverage/apps/nuxt-client"
-          ],
+          "outputs": ["coverage/apps/nuxt-client"],
           "options": {
             "jestConfig": "apps/nuxt-client/jest.config.js",
             "passWithNoTests": true
@@ -153,12 +129,24 @@
             }
           }
         },
+        "e2e-headless": {
+          "executor": "@nrwl/cypress:cypress",
+          "options": {
+            "cypressConfig": "apps/nuxt-client-e2e/cypress.json",
+            "tsConfig": "apps/nuxt-client-e2e/tsconfig.e2e.json",
+            "devServerTarget": "nuxt-client:serve",
+            "headless": true
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "nuxt-client:serve:production"
+            }
+          }
+        },
         "open-e2e-console": {
           "executor": "@nrwl/workspace:run-commands",
           "options": {
-            "commands": [
-              "cypress open --config-file cypress.json"
-            ],
+            "commands": ["cypress open --config-file cypress.json"],
             "cwd": "apps/nuxt-client-e2e",
             "parallel": false
           }
@@ -166,9 +154,39 @@
         "lint": {
           "executor": "@nrwl/linter:eslint",
           "options": {
-            "lintFilePatterns": [
-              "apps/nuxt-client-e2e/**/*.{js,ts}"
-            ]
+            "lintFilePatterns": ["apps/nuxt-client-e2e/**/*.{js,ts}"]
+          }
+        }
+      }
+    },
+    "spinners": {
+      "root": "libs/spinners",
+      "sourceRoot": "libs/spinners/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["libs/spinners/**/*.ts"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/spinners"],
+          "options": {
+            "jestConfig": "libs/spinners/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "build": {
+          "executor": "@nrwl/node:package",
+          "outputs": ["{options.outputPath}"],
+          "options": {
+            "outputPath": "dist/libs/spinners",
+            "tsConfig": "libs/spinners/tsconfig.lib.json",
+            "packageJson": "libs/spinners/package.json",
+            "main": "libs/spinners/src/index.ts",
+            "assets": ["libs/spinners/*.md"]
           }
         }
       }

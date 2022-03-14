@@ -1,0 +1,4 @@
+#!/bin/sh
+set -ex
+open cypress/screenshots/*/*.feature/*.png || echo '⚠️ Something went wrong while trying to open the cypress screenshots...'
+exit 2
