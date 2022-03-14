@@ -1,11 +1,18 @@
 # Quickstart
 
 ```shell
-$ killall -9 node
-$ yarn install
-$ yarn build
-$ yarn start
-$ yarn ci
+killall -9 node
+yarn install
+yarn build
+yarn start
+yarn ci
+```
+
+# Helpful commands
+
+```shell
+nx run nuxt-client:build
+nx run back-end:build
 ```
 
 # NxLb4

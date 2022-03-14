@@ -33,7 +33,7 @@
           "executor": "nx-loopback-next:execute",
           "options": {
             "buildTarget": "back-end:build",
-            "appPath": "apps/back-end",
+            "appPath": "dist/apps/lb4-server",
             "NODE_ENV": "development"
           }
         },

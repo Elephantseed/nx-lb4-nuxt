@@ -4,7 +4,7 @@ import {ApplicationConfig} from '@loopback/core';
 export {BackEndApplication};
 
 export async function main(options: ApplicationConfig = {}) {
-  const app = new BackEndApplication(options);
+  const app = new BackEndApplication({port: 8080});
   await app.boot();
   await app.start();
 
@@ -14,3 +14,4 @@ export async function main(options: ApplicationConfig = {}) {
 
   return app;
 }
+main().then(()=>{console.log('Back-end Started')});
