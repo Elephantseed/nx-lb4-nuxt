@@ -81,32 +81,27 @@
                     </svg>
                   </span>
                   <p class="ml-2">
-                    Write BBD tests to avoid <code class="text-sm font-bold text-gray-900">problems</code> using
+                    Write BDD tests to avoid <code class="text-sm font-bold text-gray-900">problems</code> using
                     Gherking language
                   </p>
                 </li>
               </ul>
-              <p>
-                Perfect for learning how the framework works, prototyping a new idea, or creating a demo to share
-                online.
-              </p>
             </div>
             <div class="pt-6 text-base leading-6 font-bold sm:text-lg sm:leading-7">
-              <p>Want to dig deeper into Tailwind?</p>
               <p>
                 <a
-                  href="/_tailwind/"
+                  href="https://play.tailwindcss.com"
                   class="text-overwrittenGreen-600 hover:text-overwrittenGreen-700"
                   target="_blank"
                   rel="noopener noreferrer"
-                > Open the console
+                > Tailwind playground
                   &rarr; </a>
               </p>
+              <Counter />
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <Counter />
 </template>
