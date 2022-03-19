@@ -3,4 +3,10 @@ dist/
 apps/nuxt-client/storybook-static/
 node_modules/
 tests/coverage/
+dist/
+node_locale/
+*.d.ts
+.nuxt-storybook
+storybook-static
+
 

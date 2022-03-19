@@ -3,9 +3,39 @@
   "extends": "@loopback/build/config/tsconfig.common.json",
   "compilerOptions": {
     "outDir": "../../dist/apps/back-end",
-    "rootDir": "src"
+    "rootDir": "src",
+    "target": "es2018",
+    "module": "commonjs",
+    "strict": true,
+    "noImplicitThis": false,
+    "noImplicitAny": true,
+    "resolveJsonModule": true,
+    "importHelpers": true,
+    "declaration": false,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "incremental": true,
+    "tsBuildInfoFile": "tsconfig.tsbuildinfo",
+    "baseUrl": ".",
+    "types": [
+      "node",
+      "jest"
+    ],
+    "lib": [
+      "esnext"
+    ]
   },
   "include": [
-    "src"
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "*/node_modules",
+    "dist"
   ]
 }
+
+

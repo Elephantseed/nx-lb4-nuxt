@@ -138,6 +138,7 @@ Visit [Nx Cloud](https://nx.app/) to learn more.
   - https://github.com/storybookjs/storybook/tree/master/addons/knobs
   - https://geekflare.com/storybook-in-react/
   - https://nerdcave.com/tailwind-cheat-sheet
+  - https://v3.nuxtjs.org/docs/usage/cli
 
 ##Known issues
 
