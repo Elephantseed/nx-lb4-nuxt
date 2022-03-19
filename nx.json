@@ -31,9 +31,12 @@
   "projects": {
     "back-end": {
       "tags": ["scope:server"],
-      "implicitDependencies": ["nuxt-client"]
+      "implicitDependencies": ["nuxt-client", "nuxt3-app"]
     },
     "nuxt-client": {
+      "tags": ["scope:client"]
+    },
+    "nuxt3-app": {
       "tags": ["scope:client"]
     },
     "nuxt-client-e2e": {

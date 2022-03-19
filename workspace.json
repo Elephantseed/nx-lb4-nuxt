@@ -111,6 +111,55 @@
         }
       }
     },
+    "nuxt3-app": {
+      "projectType": "application",
+      "root": "apps/nuxt3-app",
+      "targets": {
+        "storybook": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": ["nuxt storybook"],
+            "cwd": "apps/nuxt3-app",
+            "parallel": false
+          }
+        },
+        "build-storybook": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": ["nuxt storybook build"],
+            "cwd": "apps/nuxt3-app",
+            "parallel": false
+          }
+        },
+        "serve": {
+          "executor": "@nx-plus/nuxt:server",
+          "options": {
+            "browserTarget": "nuxt-client:build",
+            "dev": true
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "nuxt-client:build:production",
+              "dev": false
+            }
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["apps/nuxt3-app/**/*.{ts,js,vue}"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/apps/nuxt3-app"],
+          "options": {
+            "jestConfig": "apps/nuxt2-app/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
     "nuxt-client-e2e": {
       "root": "apps/nuxt-client-e2e",
       "sourceRoot": "apps/nuxt-client-e2e/src",
