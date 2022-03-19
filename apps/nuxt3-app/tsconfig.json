@@ -1,4 +1,19 @@
 {
   // https://v3.nuxtjs.org/concepts/typescript
-  "extends": "./.nuxt/tsconfig.json"
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "allowJs": true,
+    "noEmit": true,
+    "types": ["node", "@nuxt/types"]
+  },
+  "include": ["**/*.ts", "**/*.js", "**/*.vue", "storybook/plugins"],
+  "exclude": [
+    "**/*.stories.jsx",
+    "**/*.stories.tsx",
+    "**/*.stories.ts",
+    "**/*.stories.js",
+    "**/*.stories.jsx",
+    "**/*.stories.tsx"
+  ]
 }

@@ -97,7 +97,7 @@
                 > Tailwind playground
                   &rarr; </a>
               </p>
-              <Counter />
+              <Counter/>
             </div>
           </div>
         </div>
@@ -105,3 +105,9 @@
     </div>
   </div>
 </template>
+<script>
+import Counter from "~/components/counters/counter";
+export default {
+  components: { Counter }
+}
+</script>

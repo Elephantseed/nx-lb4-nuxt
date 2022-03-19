@@ -2,17 +2,17 @@
   <div
     class="flex flex-col items-center justify-center h-full space-y-2 text-xl"
   >
-    <br/>
+    <br />
     <div class="flex items-center justify-center">
       <button
-        @click="counter++"
+        @click="store.increment()"
         class="px-2 py-1 font-bold text-white bg-green-500 rounded hover:bg-green-700"
       >
         +
       </button>
-      <span class="mx-2">{{ counter }}</span>
+      <span class="mx-2">{{ store.$state.count }}</span>
       <button
-        @click="counter--"
+        @click="store.decrement()"
         class="px-2 py-1 font-bold text-white bg-green-500 rounded hover:bg-green-700"
       >
         -
@@ -21,17 +21,9 @@
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
+<script setup>
 
-export default defineComponent({
-  setup() {
-    const counter = ref(0);
+import { useStore } from "~/store/store";
 
-    return {
-      counter,
-    };
-  },
-  layout: false
-});
+const store = useStore();
 </script>
