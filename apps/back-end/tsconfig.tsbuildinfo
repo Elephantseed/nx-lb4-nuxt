@@ -1702,7 +1702,7 @@
         "signature": "55ac06124886dcc0605a88abe6b881f97d0109b2f93508ec3e2916aab75637d1"
       },
       "./src/index.ts": {
-        "version": "0edd98bb41f20715af3eddb1635fe55d692575a3cab3a2a220816db92a68e167",
+        "version": "b6d94c84fa46e8da9f1af4f56fd217fdf09850d5153f7359f958615b95038f02",
         "signature": "b4589f24b459c49fe996ae1fe2172235509126b4612d21d441c7d665be8f9937"
       },
       "./src/migrate.ts": {

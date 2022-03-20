@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import IconMixin from '@/mixins/IconMixin.vue'
+import IconMixin from '../../mixins/IconMixin.vue'
 export default {
   name: 'IconGithub',
   mixins: [IconMixin],

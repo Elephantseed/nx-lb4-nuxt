@@ -21,13 +21,6 @@
 import { defineComponent } from "vue";
 
 export default defineComponent({
-  setup() {
-    const counter = ref(0);
-
-    return {
-      counter,
-    };
-  },
   layout: false
 });
 </script>

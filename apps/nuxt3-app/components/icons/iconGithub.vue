@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import IconMixin from "@/mixins/IconMixin.vue";
 import { defineComponent } from "vue";
+import IconMixin from "../../mixins/iconMixin.vue";
 
 export default defineComponent({
   name: "IconGithub",

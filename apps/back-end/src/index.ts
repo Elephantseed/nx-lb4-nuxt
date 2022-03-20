@@ -9,12 +9,11 @@ export async function main(options: ApplicationConfig = {}) {
   await app.start();
 
   let url = app.restServer.url;
-  url = url?.replace("[::1]", "localhost")
+  url = url?.replace("[::1]", "localhost") // Hack to make it linkable in the console since it is very convenient for developing
   console.log(`  > Back-end: ${url}/\n`);
 
   return app;
 }
 
-main().then(()=>{
-  console.log('Loopback started correctly.')
-})
+// eslint-disable-next-line @typescript-eslint/no-empty-function
+main().then(()=>{})

@@ -106,8 +106,12 @@
   </div>
 </template>
 <script>
-import Counter from "~/components/counters/counter";
-export default {
+import { defineComponent } from "vue";
+import Counter from "../components/counters/counter";
+
+export default defineComponent({
   components: { Counter }
-}
+});
 </script>
+
+

@@ -1,5 +1,5 @@
 <script>
-import IconBase from '~/components/ui/IconBase.vue'
+import IconBase from '../components/ui/IconBase.vue'
 export default {
   name: 'IconMixin',
   components: { IconBase },
