@@ -5,19 +5,24 @@ export default defineNuxtConfig({
   buildModules: [
     "@pinia/nuxt"
   ],
+  /*
+   ** Auto import components
+   ** See https://nuxtjs.org/api/configuration-components
+   */
+  components: true,
   build: {
     postcss: {
-      postcssOptions: require("./postcss.config.js"),
-    },
+      postcssOptions: require("./postcss.config.js")
+    }
   },
   storybook: {
     addons: [
       // Add your addons here
-      '@storybook/addon-knobs/register'
+      "@storybook/addon-knobs/register"
     ]
   },
   privateRuntimeConfig: {
-    API_SECRET: '' // Default to an empty string, automatically loaded at runtime using process.env.API_SECRET
+    API_SECRET: "" // Default to an empty string, automatically loaded at runtime using process.env.API_SECRET
   }
 });
 

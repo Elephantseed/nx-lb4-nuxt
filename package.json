@@ -6,6 +6,9 @@
     "nonGlobalStepDefinitions": true,
     "stepDefinitions": "./src/integration"
   },
+  "engines": {
+    "node": "v16.14.2"
+  },
   "scripts": {
     "nx": "nx",
     "start": "nx run-many --target=serve --all --parallel",
