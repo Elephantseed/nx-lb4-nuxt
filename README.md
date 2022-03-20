@@ -144,3 +144,4 @@ Visit [Nx Cloud](https://nx.app/) to learn more.
 ##Known issues
 
  - https://github.com/nrwl/nx/issues/1777
+ - @types/jest needs to be version 25 for jest unit test to pass gracefully, it took a lot to configure it, don't touch it!!

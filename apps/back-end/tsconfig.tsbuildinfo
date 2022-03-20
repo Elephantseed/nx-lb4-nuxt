@@ -1805,23 +1805,23 @@
         "version": "fc1c62a010b4b620687414cfee2cd8c79c31ba5de4a0467a78f6189d8b4728f5",
         "signature": "fc1c62a010b4b620687414cfee2cd8c79c31ba5de4a0467a78f6189d8b4728f5"
       },
-      "../../node_modules/jest-diff/build/ts3.4/cleanupsemantic.d.ts": {
+      "../../node_modules/@types/jest/node_modules/jest-diff/build/ts3.4/cleanupsemantic.d.ts": {
         "version": "d3f71718012cf793afd0e6dbf8c3b2c7670dd4dd68dfdcee5b280b20c5c5f207",
         "signature": "d3f71718012cf793afd0e6dbf8c3b2c7670dd4dd68dfdcee5b280b20c5c5f207"
       },
-      "../../node_modules/jest-diff/build/ts3.4/types.d.ts": {
+      "../../node_modules/@types/jest/node_modules/jest-diff/build/ts3.4/types.d.ts": {
         "version": "9fd17d8fcaaadff8ea8acaa1be7ae46f9434657d62ceb2932083bc8156d30d55",
         "signature": "9fd17d8fcaaadff8ea8acaa1be7ae46f9434657d62ceb2932083bc8156d30d55"
       },
-      "../../node_modules/jest-diff/build/ts3.4/difflines.d.ts": {
+      "../../node_modules/@types/jest/node_modules/jest-diff/build/ts3.4/difflines.d.ts": {
         "version": "747b3159ab8ae386103b3e756b0b8890e5fdbb171da4b1cffd129e30825f3b40",
         "signature": "747b3159ab8ae386103b3e756b0b8890e5fdbb171da4b1cffd129e30825f3b40"
       },
-      "../../node_modules/jest-diff/build/ts3.4/printdiffs.d.ts": {
+      "../../node_modules/@types/jest/node_modules/jest-diff/build/ts3.4/printdiffs.d.ts": {
         "version": "9770ffc9151e11eb053917a88c564659e8d693bb688f524cc09c200cdea498d9",
         "signature": "9770ffc9151e11eb053917a88c564659e8d693bb688f524cc09c200cdea498d9"
       },
-      "../../node_modules/jest-diff/build/ts3.4/index.d.ts": {
+      "../../node_modules/@types/jest/node_modules/jest-diff/build/ts3.4/index.d.ts": {
         "version": "04349ed673ffd6efaa8f038f956e4f2900ac5ccd7479dc4e229619bd8ceac1a5",
         "signature": "04349ed673ffd6efaa8f038f956e4f2900ac5ccd7479dc4e229619bd8ceac1a5"
       },
@@ -3974,25 +3974,25 @@
       "./src/controllers/index.ts": [
         "./src/controllers/ping.controller.ts"
       ],
-      "../../node_modules/jest-diff/build/ts3.4/difflines.d.ts": [
-        "../../node_modules/jest-diff/build/ts3.4/cleanupsemantic.d.ts",
-        "../../node_modules/jest-diff/build/ts3.4/types.d.ts"
+      "../../node_modules/@types/jest/node_modules/jest-diff/build/ts3.4/difflines.d.ts": [
+        "../../node_modules/@types/jest/node_modules/jest-diff/build/ts3.4/cleanupsemantic.d.ts",
+        "../../node_modules/@types/jest/node_modules/jest-diff/build/ts3.4/types.d.ts"
       ],
-      "../../node_modules/jest-diff/build/ts3.4/printdiffs.d.ts": [
-        "../../node_modules/jest-diff/build/ts3.4/cleanupsemantic.d.ts",
-        "../../node_modules/jest-diff/build/ts3.4/types.d.ts"
+      "../../node_modules/@types/jest/node_modules/jest-diff/build/ts3.4/printdiffs.d.ts": [
+        "../../node_modules/@types/jest/node_modules/jest-diff/build/ts3.4/cleanupsemantic.d.ts",
+        "../../node_modules/@types/jest/node_modules/jest-diff/build/ts3.4/types.d.ts"
       ],
-      "../../node_modules/jest-diff/build/ts3.4/index.d.ts": [
-        "../../node_modules/jest-diff/build/ts3.4/cleanupsemantic.d.ts",
-        "../../node_modules/jest-diff/build/ts3.4/difflines.d.ts",
-        "../../node_modules/jest-diff/build/ts3.4/printdiffs.d.ts",
-        "../../node_modules/jest-diff/build/ts3.4/types.d.ts"
+      "../../node_modules/@types/jest/node_modules/jest-diff/build/ts3.4/index.d.ts": [
+        "../../node_modules/@types/jest/node_modules/jest-diff/build/ts3.4/cleanupsemantic.d.ts",
+        "../../node_modules/@types/jest/node_modules/jest-diff/build/ts3.4/difflines.d.ts",
+        "../../node_modules/@types/jest/node_modules/jest-diff/build/ts3.4/printdiffs.d.ts",
+        "../../node_modules/@types/jest/node_modules/jest-diff/build/ts3.4/types.d.ts"
       ],
       "../../node_modules/@types/jest/node_modules/pretty-format/build/ts3.4/index.d.ts": [
         "../../node_modules/@types/jest/node_modules/pretty-format/build/ts3.4/types.d.ts"
       ],
       "../../node_modules/@types/jest/index.d.ts": [
-        "../../node_modules/jest-diff/build/ts3.4/index.d.ts",
+        "../../node_modules/@types/jest/node_modules/jest-diff/build/ts3.4/index.d.ts",
         "../../node_modules/@types/jest/node_modules/pretty-format/build/ts3.4/index.d.ts"
       ],
       "../../node_modules/@types/jest/ts3.2/index.d.ts": [
@@ -6087,26 +6087,26 @@
       "../../node_modules/@loopback/testlab/dist/sinon.d.ts": [
         "../../node_modules/@types/sinon/ts3.1/index.d.ts"
       ],
-      "../../node_modules/jest-diff/build/ts3.4/index.d.ts": [
-        "../../node_modules/jest-diff/build/ts3.4/cleanupsemantic.d.ts",
-        "../../node_modules/jest-diff/build/ts3.4/difflines.d.ts",
-        "../../node_modules/jest-diff/build/ts3.4/printdiffs.d.ts",
-        "../../node_modules/jest-diff/build/ts3.4/types.d.ts"
+      "../../node_modules/@types/jest/node_modules/jest-diff/build/ts3.4/index.d.ts": [
+        "../../node_modules/@types/jest/node_modules/jest-diff/build/ts3.4/cleanupsemantic.d.ts",
+        "../../node_modules/@types/jest/node_modules/jest-diff/build/ts3.4/difflines.d.ts",
+        "../../node_modules/@types/jest/node_modules/jest-diff/build/ts3.4/printdiffs.d.ts",
+        "../../node_modules/@types/jest/node_modules/jest-diff/build/ts3.4/types.d.ts"
       ],
       "../../node_modules/@types/jest/index.d.ts": [
-        "../../node_modules/jest-diff/build/ts3.4/index.d.ts",
+        "../../node_modules/@types/jest/node_modules/jest-diff/build/ts3.4/index.d.ts",
         "../../node_modules/@types/jest/node_modules/pretty-format/build/ts3.4/index.d.ts"
       ],
       "../../node_modules/@types/jest/ts3.2/index.d.ts": [
         "../../node_modules/@types/jest/index.d.ts"
       ],
-      "../../node_modules/jest-diff/build/ts3.4/printdiffs.d.ts": [
-        "../../node_modules/jest-diff/build/ts3.4/cleanupsemantic.d.ts",
-        "../../node_modules/jest-diff/build/ts3.4/types.d.ts"
+      "../../node_modules/@types/jest/node_modules/jest-diff/build/ts3.4/printdiffs.d.ts": [
+        "../../node_modules/@types/jest/node_modules/jest-diff/build/ts3.4/cleanupsemantic.d.ts",
+        "../../node_modules/@types/jest/node_modules/jest-diff/build/ts3.4/types.d.ts"
       ],
-      "../../node_modules/jest-diff/build/ts3.4/difflines.d.ts": [
-        "../../node_modules/jest-diff/build/ts3.4/cleanupsemantic.d.ts",
-        "../../node_modules/jest-diff/build/ts3.4/types.d.ts"
+      "../../node_modules/@types/jest/node_modules/jest-diff/build/ts3.4/difflines.d.ts": [
+        "../../node_modules/@types/jest/node_modules/jest-diff/build/ts3.4/cleanupsemantic.d.ts",
+        "../../node_modules/@types/jest/node_modules/jest-diff/build/ts3.4/types.d.ts"
       ],
       "../../node_modules/@types/jest/node_modules/pretty-format/build/ts3.4/index.d.ts": [
         "../../node_modules/@types/jest/node_modules/pretty-format/build/ts3.4/types.d.ts"
@@ -6528,11 +6528,11 @@
       "./src/__tests__/acceptance/home-page.acceptance.ts",
       "./src/controllers/ping.controller.ts",
       "./src/controllers/index.ts",
-      "../../node_modules/jest-diff/build/ts3.4/cleanupsemantic.d.ts",
-      "../../node_modules/jest-diff/build/ts3.4/types.d.ts",
-      "../../node_modules/jest-diff/build/ts3.4/difflines.d.ts",
-      "../../node_modules/jest-diff/build/ts3.4/printdiffs.d.ts",
-      "../../node_modules/jest-diff/build/ts3.4/index.d.ts",
+      "../../node_modules/@types/jest/node_modules/jest-diff/build/ts3.4/cleanupsemantic.d.ts",
+      "../../node_modules/@types/jest/node_modules/jest-diff/build/ts3.4/types.d.ts",
+      "../../node_modules/@types/jest/node_modules/jest-diff/build/ts3.4/difflines.d.ts",
+      "../../node_modules/@types/jest/node_modules/jest-diff/build/ts3.4/printdiffs.d.ts",
+      "../../node_modules/@types/jest/node_modules/jest-diff/build/ts3.4/index.d.ts",
       "../../node_modules/@types/jest/node_modules/pretty-format/build/ts3.4/types.d.ts",
       "../../node_modules/@types/jest/node_modules/pretty-format/build/ts3.4/index.d.ts",
       "../../node_modules/@types/jest/index.d.ts",
