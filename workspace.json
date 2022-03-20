@@ -20,7 +20,7 @@
         "build": {
           "executor": "@nrwl/workspace:run-commands",
           "options": {
-            "commands": ["lb-tsc --incremental"],
+            "commands": ["rimraf *.tsbuildinfo", "lb-tsc --incremental"],
             "cwd": "apps/back-end",
             "parallel": false
           }
@@ -80,7 +80,7 @@
         "build": {
           "executor": "@nrwl/workspace:run-commands",
           "options": {
-            "commands": ["nuxi build"],
+            "commands": ["nuxi build ../../dist/apps/nuxt3-app"],
             "cwd": "apps/nuxt3-app",
             "parallel": false
           }

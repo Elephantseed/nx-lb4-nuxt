@@ -33,10 +33,6 @@
         "version": "f135d77dd841d9a94e2551421f71067060f9eb1f0fb3b45ef142f78e84768bc8",
         "signature": "f135d77dd841d9a94e2551421f71067060f9eb1f0fb3b45ef142f78e84768bc8"
       },
-      "../../node_modules/@loopback/build/node_modules/typescript/lib/lib.dom.d.ts": {
-        "version": "d93de5e8a7275cb9d47481410e13b3b1debb997e216490954b5d106e37e086de",
-        "signature": "d93de5e8a7275cb9d47481410e13b3b1debb997e216490954b5d106e37e086de"
-      },
       "../../node_modules/@loopback/build/node_modules/typescript/lib/lib.es2015.core.d.ts": {
         "version": "734ddc145e147fbcd55f07d034f50ccff1086f5a880107665ec326fb368876f6",
         "signature": "734ddc145e147fbcd55f07d034f50ccff1086f5a880107665ec326fb368876f6"
@@ -150,8 +146,8 @@
         "signature": "0c9ea8c2028047f39a3f66752682604f543c08be8806258c3d95c93e75a43255"
       },
       "../../node_modules/tslib/tslib.d.ts": {
-        "version": "ea7abf23498b7c214c67fc14f22f41983fbb7bf7c4826c7fcdef542b2022545f",
-        "signature": "ea7abf23498b7c214c67fc14f22f41983fbb7bf7c4826c7fcdef542b2022545f"
+        "version": "12f4cfe2fe60b810c3174537bc2ddb20c1067b7768643d12cb1266fd183afb75",
+        "signature": "12f4cfe2fe60b810c3174537bc2ddb20c1067b7768643d12cb1266fd183afb75"
       },
       "../../node_modules/@loopback/metadata/dist/types.d.ts": {
         "version": "2ee972b4a0efc860666fb8e2ad9631c2c3bec84ca0d9cc6a2c7716584eb422ba",
@@ -942,8 +938,8 @@
         "signature": "84a5a43228313a887f545bce6ba58f8acc2fd210d6e96a3f9ded7820e377b815"
       },
       "../../node_modules/@types/json-schema/index.d.ts": {
-        "version": "3a1e165b22a1cb8df82c44c9a09502fd2b33f160cd277de2cd3a055d8e5c6b27",
-        "signature": "3a1e165b22a1cb8df82c44c9a09502fd2b33f160cd277de2cd3a055d8e5c6b27"
+        "version": "d38e588a10943bbab1d4ce03d94759bf065ff802a9a72fc57aa75a72f1725b71",
+        "signature": "d38e588a10943bbab1d4ce03d94759bf065ff802a9a72fc57aa75a72f1725b71"
       },
       "../../node_modules/@loopback/repository-json-schema/dist/build-schema.d.ts": {
         "version": "c211cd4148b5884d6f7bd98c9ae62d89519d9f1f6cd27c1a0337c776b78420d2",
@@ -1062,32 +1058,40 @@
         "signature": "6d49733ea22d9eb5f643881d0abb64f6a4daef82d21b79512ddfb227ce3b1187"
       },
       "../../node_modules/@types/range-parser/index.d.ts": {
-        "version": "4e88b833be14c7f384e0dcd57bb30acd799e8e34d212635d693e41a75a71164b",
-        "signature": "4e88b833be14c7f384e0dcd57bb30acd799e8e34d212635d693e41a75a71164b"
+        "version": "16d51f964ec125ad2024cf03f0af444b3bc3ec3614d9345cc54d09bab45c9a4c",
+        "signature": "16d51f964ec125ad2024cf03f0af444b3bc3ec3614d9345cc54d09bab45c9a4c"
       },
       "../../node_modules/@types/qs/index.d.ts": {
-        "version": "98437d5a640b67c41534f0de2dcb64c75433dcdff54ff8f8432e613663619a2e",
-        "signature": "98437d5a640b67c41534f0de2dcb64c75433dcdff54ff8f8432e613663619a2e"
+        "version": "ba601641fac98c229ccd4a303f747de376d761babb33229bb7153bed9356c9cc",
+        "signature": "ba601641fac98c229ccd4a303f747de376d761babb33229bb7153bed9356c9cc"
       },
       "../../node_modules/@types/express-serve-static-core/ts4.0/index.d.ts": {
-        "version": "410a1d58cf676b65cc64d4349736cabf375f6ef58a7dd4ff07c222fc5e40bfbc",
-        "signature": "410a1d58cf676b65cc64d4349736cabf375f6ef58a7dd4ff07c222fc5e40bfbc"
+        "version": "ffbace99db0732f14e9011acad03a19a83c24b4b888d8b602fa2118c8c8b17af",
+        "signature": "ffbace99db0732f14e9011acad03a19a83c24b4b888d8b602fa2118c8c8b17af"
+      },
+      "../../node_modules/@types/serve-static/node_modules/@types/mime/index.d.ts": {
+        "version": "be27a64e821a3e5af838650e4aa25805c60f057d0c37a9762c378d19d364b3e6",
+        "signature": "be27a64e821a3e5af838650e4aa25805c60f057d0c37a9762c378d19d364b3e6"
+      },
+      "../../node_modules/@types/serve-static/index.d.ts": {
+        "version": "cdbae5083ef8f786069519405ca1f1e2ce72b9efebdf5e1931584fba747f3bc0",
+        "signature": "cdbae5083ef8f786069519405ca1f1e2ce72b9efebdf5e1931584fba747f3bc0"
+      },
+      "../../node_modules/@types/connect/index.d.ts": {
+        "version": "6d829824ead8999f87b6df21200df3c6150391b894b4e80662caa462bd48d073",
+        "signature": "6d829824ead8999f87b6df21200df3c6150391b894b4e80662caa462bd48d073"
+      },
+      "../../node_modules/@types/body-parser/index.d.ts": {
+        "version": "afc559c1b93df37c25aef6b3dfa2d64325b0e112e887ee18bf7e6f4ec383fc90",
+        "signature": "afc559c1b93df37c25aef6b3dfa2d64325b0e112e887ee18bf7e6f4ec383fc90"
       },
       "../../node_modules/@types/mime/index.d.ts": {
         "version": "84e3bbd6f80983d468260fdbfeeb431cc81f7ea98d284d836e4d168e36875e86",
         "signature": "84e3bbd6f80983d468260fdbfeeb431cc81f7ea98d284d836e4d168e36875e86"
       },
-      "../../node_modules/@types/serve-static/index.d.ts": {
-        "version": "3b02517f9be71f255eadab9892406055d069167891f1e1ea16c96c4ff1ddda01",
-        "signature": "3b02517f9be71f255eadab9892406055d069167891f1e1ea16c96c4ff1ddda01"
-      },
-      "../../node_modules/@types/connect/index.d.ts": {
-        "version": "81c14b89fa607b86dd726e2e3e91360cf8155ce97468404324d404a5bd65b2eb",
-        "signature": "81c14b89fa607b86dd726e2e3e91360cf8155ce97468404324d404a5bd65b2eb"
-      },
-      "../../node_modules/@types/body-parser/index.d.ts": {
-        "version": "ebddbd167c2fabd0151f50e5df94ca6d845149c47521280d8867afe3429dd078",
-        "signature": "ebddbd167c2fabd0151f50e5df94ca6d845149c47521280d8867afe3429dd078"
+      "../../node_modules/@types/express/node_modules/@types/serve-static/index.d.ts": {
+        "version": "0b85cb069d0e427ba946e5eb2d86ef65ffd19867042810516d16919f6c1a5aec",
+        "signature": "0b85cb069d0e427ba946e5eb2d86ef65ffd19867042810516d16919f6c1a5aec"
       },
       "../../node_modules/@types/express/ts4.0/index.d.ts": {
         "version": "587b9ba944f50038226049381e9c44389c3f720eb2ca6774e7d58dbc43109826",
@@ -1113,14 +1117,6 @@
         "version": "ec339e72020f698d34f919697d84ecf0215c810f471d84fb7e3ff30154a84e5a",
         "signature": "ec339e72020f698d34f919697d84ecf0215c810f471d84fb7e3ff30154a84e5a"
       },
-      "../../node_modules/@loopback/rest-explorer/node_modules/@types/mime/index.d.ts": {
-        "version": "be27a64e821a3e5af838650e4aa25805c60f057d0c37a9762c378d19d364b3e6",
-        "signature": "be27a64e821a3e5af838650e4aa25805c60f057d0c37a9762c378d19d364b3e6"
-      },
-      "../../node_modules/@loopback/rest-explorer/node_modules/@types/serve-static/index.d.ts": {
-        "version": "cdbae5083ef8f786069519405ca1f1e2ce72b9efebdf5e1931584fba747f3bc0",
-        "signature": "cdbae5083ef8f786069519405ca1f1e2ce72b9efebdf5e1931584fba747f3bc0"
-      },
       "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/rest/dist/router/router-spec.d.ts": {
         "version": "35fe3b683af14d3a28f91ddb985a5eb0b1aba18b7a424091d7ef163bdf8fd297",
         "signature": "35fe3b683af14d3a28f91ddb985a5eb0b1aba18b7a424091d7ef163bdf8fd297"
@@ -1142,8 +1138,8 @@
         "signature": "d828c67d34dd70a5c2789fc5d9cc3fca395a8c4fc5bf8899f2b4f670da25620c"
       },
       "../../node_modules/@types/cors/index.d.ts": {
-        "version": "a68969f643e0cb091046a9437b64cb1880a081fc07c70a4717b0edef2a38bc85",
-        "signature": "a68969f643e0cb091046a9437b64cb1880a081fc07c70a4717b0edef2a38bc85"
+        "version": "6fbd58e4015b9ae31ea977d4d549eb24a1102cc798b57ec5d70868b542c06612",
+        "signature": "6fbd58e4015b9ae31ea977d4d549eb24a1102cc798b57ec5d70868b542c06612"
       },
       "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/rest/dist/http-handler.d.ts": {
         "version": "dd8b4401833223d2dbc316c7a3ad2212c0de8aaf7131f1ed197020acd12ce477",
@@ -1298,8 +1294,8 @@
         "signature": "1dcd994cabcf066e478515c75dcbe8091bcf0810707cc7ddcc966c5cab07f36e"
       },
       "../../node_modules/@types/http-errors/index.d.ts": {
-        "version": "85e7ed2eea56d4ecaf94420c82f541dd30ed657f4b82efc34f6377c774db7fc8",
-        "signature": "85e7ed2eea56d4ecaf94420c82f541dd30ed657f4b82efc34f6377c774db7fc8"
+        "version": "6168414aa12d33d0fcfac4f9870aa81ce27e136db6faf182001a5f3792e1d720",
+        "signature": "6168414aa12d33d0fcfac4f9870aa81ce27e136db6faf182001a5f3792e1d720"
       },
       "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/rest/dist/rest-http-error.d.ts": {
         "version": "82b252d3809711631631b9c38fb87324fd335b8601a07456596a8c9699536fc4",
@@ -1428,10 +1424,6 @@
       "../../node_modules/@loopback/rest/dist/router/handler-route.d.ts": {
         "version": "ec339e72020f698d34f919697d84ecf0215c810f471d84fb7e3ff30154a84e5a",
         "signature": "ec339e72020f698d34f919697d84ecf0215c810f471d84fb7e3ff30154a84e5a"
-      },
-      "../../node_modules/@loopback/rest/node_modules/@types/serve-static/index.d.ts": {
-        "version": "cdbae5083ef8f786069519405ca1f1e2ce72b9efebdf5e1931584fba747f3bc0",
-        "signature": "cdbae5083ef8f786069519405ca1f1e2ce72b9efebdf5e1931584fba747f3bc0"
       },
       "../../node_modules/@loopback/rest/dist/router/router-spec.d.ts": {
         "version": "35fe3b683af14d3a28f91ddb985a5eb0b1aba18b7a424091d7ef163bdf8fd297",
@@ -1721,9 +1713,13 @@
         "version": "8d48b8f8a377ade8dd1f000625bc276eea067f2529cc9cafdf082d17142107d6",
         "signature": "8d48b8f8a377ade8dd1f000625bc276eea067f2529cc9cafdf082d17142107d6"
       },
+      "../../node_modules/buffer/index.d.ts": {
+        "version": "818f832a8e29ca7e128dcde810a9ff8cbc3754010474e29fff0a5ed95adae032",
+        "signature": "818f832a8e29ca7e128dcde810a9ff8cbc3754010474e29fff0a5ed95adae032"
+      },
       "../../node_modules/@types/superagent/index.d.ts": {
-        "version": "5ea07f5b82ba98f3d53bef789553b6a87294097caf758de104ea7d476d6a8385",
-        "signature": "5ea07f5b82ba98f3d53bef789553b6a87294097caf758de104ea7d476d6a8385"
+        "version": "31c502014e5ba046d5cb060136929b73fd53f0f989aa37b2b0424644cb0d93ef",
+        "signature": "31c502014e5ba046d5cb060136929b73fd53f0f989aa37b2b0424644cb0d93ef"
       },
       "../../node_modules/@types/supertest/index.d.ts": {
         "version": "e57360b3f53ec41ed30cfb0eaed6e689be92bf311d7c25175a4e127f46158079",
@@ -1754,8 +1750,8 @@
         "signature": "87c409fe1f923e4449a75e4c07dd939436e9c8f76b834fb44a6937147867813d"
       },
       "../../node_modules/@types/shot/index.d.ts": {
-        "version": "1858582b6b5b66476d2885696bd490e58d7a2eb0d48f505e214967ca00acd0ea",
-        "signature": "1858582b6b5b66476d2885696bd490e58d7a2eb0d48f505e214967ca00acd0ea"
+        "version": "c55bbca1b587fc0a0c725c600abbee2c4bbdbae7e4291719fd7e6f0f68bdf3b8",
+        "signature": "c55bbca1b587fc0a0c725c600abbee2c4bbdbae7e4291719fd7e6f0f68bdf3b8"
       },
       "../../node_modules/@loopback/testlab/dist/shot.d.ts": {
         "version": "c35b3b6ef644c4144c767d0ef2573b32b79cd989d84e266a73f0c8966dc0ef97",
@@ -2978,9 +2974,8 @@
         "../../node_modules/@types/node/index.d.ts"
       ],
       "../../node_modules/@types/serve-static/index.d.ts": [
-        "../../node_modules/@types/mime/index.d.ts",
-        "../../node_modules/@types/node/http.d.ts",
-        "../../node_modules/@types/node/index.d.ts"
+        "../../node_modules/@types/express-serve-static-core/ts4.0/index.d.ts",
+        "../../node_modules/@types/serve-static/node_modules/@types/mime/index.d.ts"
       ],
       "../../node_modules/@types/connect/index.d.ts": [
         "../../node_modules/@types/node/http.d.ts",
@@ -2991,11 +2986,17 @@
         "../../node_modules/@types/node/http.d.ts",
         "../../node_modules/@types/node/index.d.ts"
       ],
+      "../../node_modules/@types/express/node_modules/@types/serve-static/index.d.ts": [
+        "../../node_modules/@types/mime/index.d.ts",
+        "../../node_modules/@types/node/http.d.ts",
+        "../../node_modules/@types/node/index.d.ts"
+      ],
       "../../node_modules/@types/express/ts4.0/index.d.ts": [
         "../../node_modules/@types/body-parser/index.d.ts",
-        "../../node_modules/@types/serve-static/index.d.ts",
+        "../../node_modules/@types/express/node_modules/@types/serve-static/index.d.ts",
         "../../node_modules/@types/express-serve-static-core/ts4.0/index.d.ts",
-        "../../node_modules/@types/qs/index.d.ts"
+        "../../node_modules/@types/qs/index.d.ts",
+        "../../node_modules/@types/serve-static/index.d.ts"
       ],
       "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/rest/dist/router/route-entry.d.ts": [
         "../../node_modules/@loopback/core/node_modules/@loopback/context/index.d.ts",
@@ -3020,10 +3021,6 @@
         "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/rest/dist/types.d.ts",
         "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/rest/dist/router/base-route.d.ts"
       ],
-      "../../node_modules/@loopback/rest-explorer/node_modules/@types/serve-static/index.d.ts": [
-        "../../node_modules/@types/express-serve-static-core/ts4.0/index.d.ts",
-        "../../node_modules/@loopback/rest-explorer/node_modules/@types/mime/index.d.ts"
-      ],
       "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/rest/dist/router/router-spec.d.ts": [
         "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/openapi-v3/index.d.ts"
       ],
@@ -3031,7 +3028,7 @@
         "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/openapi-v3/index.d.ts",
         "../../node_modules/@types/express/ts4.0/index.d.ts",
         "../../node_modules/@types/express-serve-static-core/ts4.0/index.d.ts",
-        "../../node_modules/@loopback/rest-explorer/node_modules/@types/serve-static/index.d.ts",
+        "../../node_modules/@types/serve-static/index.d.ts",
         "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/rest/dist/types.d.ts",
         "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/rest/dist/router/route-entry.d.ts",
         "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/rest/dist/router/router-spec.d.ts"
@@ -3072,7 +3069,7 @@
         "../../node_modules/@types/express/ts4.0/index.d.ts",
         "../../node_modules/@types/express-serve-static-core/ts4.0/index.d.ts",
         "../../node_modules/@types/node/http.d.ts",
-        "../../node_modules/@loopback/rest-explorer/node_modules/@types/serve-static/index.d.ts",
+        "../../node_modules/@types/serve-static/index.d.ts",
         "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/rest/dist/body-parsers/index.d.ts",
         "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/rest/dist/http-handler.d.ts",
         "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/rest/dist/request-context.d.ts",
@@ -3289,7 +3286,7 @@
         "../../node_modules/@loopback/core/index.d.ts",
         "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/openapi-v3/index.d.ts",
         "../../node_modules/@types/express-serve-static-core/ts4.0/index.d.ts",
-        "../../node_modules/@loopback/rest-explorer/node_modules/@types/serve-static/index.d.ts",
+        "../../node_modules/@types/serve-static/index.d.ts",
         "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/rest/dist/body-parsers/index.d.ts",
         "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/rest/dist/keys.d.ts",
         "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/rest/dist/rest.server.d.ts",
@@ -3441,10 +3438,6 @@
         "../../node_modules/@loopback/rest/dist/types.d.ts",
         "../../node_modules/@loopback/rest/dist/router/base-route.d.ts"
       ],
-      "../../node_modules/@loopback/rest/node_modules/@types/serve-static/index.d.ts": [
-        "../../node_modules/@types/express-serve-static-core/ts4.0/index.d.ts",
-        "../../node_modules/@loopback/rest-explorer/node_modules/@types/mime/index.d.ts"
-      ],
       "../../node_modules/@loopback/rest/dist/router/router-spec.d.ts": [
         "../../node_modules/@loopback/openapi-v3/index.d.ts"
       ],
@@ -3452,7 +3445,7 @@
         "../../node_modules/@loopback/openapi-v3/index.d.ts",
         "../../node_modules/@types/express/ts4.0/index.d.ts",
         "../../node_modules/@types/express-serve-static-core/ts4.0/index.d.ts",
-        "../../node_modules/@loopback/rest-explorer/node_modules/@types/serve-static/index.d.ts",
+        "../../node_modules/@types/serve-static/index.d.ts",
         "../../node_modules/@loopback/rest/dist/types.d.ts",
         "../../node_modules/@loopback/rest/dist/router/route-entry.d.ts",
         "../../node_modules/@loopback/rest/dist/router/router-spec.d.ts"
@@ -3478,7 +3471,7 @@
         "../../node_modules/@types/express/ts4.0/index.d.ts",
         "../../node_modules/@types/express-serve-static-core/ts4.0/index.d.ts",
         "../../node_modules/@types/node/http.d.ts",
-        "../../node_modules/@loopback/rest-explorer/node_modules/@types/serve-static/index.d.ts",
+        "../../node_modules/@types/serve-static/index.d.ts",
         "../../node_modules/@loopback/rest/dist/body-parsers/index.d.ts",
         "../../node_modules/@loopback/rest/dist/http-handler.d.ts",
         "../../node_modules/@loopback/rest/dist/request-context.d.ts",
@@ -3692,7 +3685,7 @@
         "../../node_modules/@loopback/core/index.d.ts",
         "../../node_modules/@loopback/openapi-v3/index.d.ts",
         "../../node_modules/@types/express-serve-static-core/ts4.0/index.d.ts",
-        "../../node_modules/@loopback/rest-explorer/node_modules/@types/serve-static/index.d.ts",
+        "../../node_modules/@types/serve-static/index.d.ts",
         "../../node_modules/@loopback/rest/dist/body-parsers/index.d.ts",
         "../../node_modules/@loopback/rest/dist/keys.d.ts",
         "../../node_modules/@loopback/rest/dist/rest.server.d.ts",
@@ -3908,6 +3901,7 @@
         "../../node_modules/@types/node/http.d.ts",
         "../../node_modules/@types/node/stream.d.ts",
         "../../node_modules/@types/cookiejar/index.d.ts",
+        "../../node_modules/@types/node/buffer.d.ts",
         "../../node_modules/@types/node/index.d.ts"
       ],
       "../../node_modules/@types/supertest/index.d.ts": [
@@ -4244,7 +4238,7 @@
         "../../node_modules/@loopback/core/index.d.ts",
         "../../node_modules/@loopback/openapi-v3/index.d.ts",
         "../../node_modules/@types/express-serve-static-core/ts4.0/index.d.ts",
-        "../../node_modules/@loopback/rest-explorer/node_modules/@types/serve-static/index.d.ts",
+        "../../node_modules/@types/serve-static/index.d.ts",
         "../../node_modules/@loopback/rest/dist/body-parsers/index.d.ts",
         "../../node_modules/@loopback/rest/dist/keys.d.ts",
         "../../node_modules/@loopback/rest/dist/rest.server.d.ts",
@@ -4323,7 +4317,7 @@
         "../../node_modules/@types/express/ts4.0/index.d.ts",
         "../../node_modules/@types/express-serve-static-core/ts4.0/index.d.ts",
         "../../node_modules/@types/node/http.d.ts",
-        "../../node_modules/@loopback/rest-explorer/node_modules/@types/serve-static/index.d.ts",
+        "../../node_modules/@types/serve-static/index.d.ts",
         "../../node_modules/@loopback/rest/dist/body-parsers/index.d.ts",
         "../../node_modules/@loopback/rest/dist/http-handler.d.ts",
         "../../node_modules/@loopback/rest/dist/request-context.d.ts",
@@ -4486,7 +4480,7 @@
         "../../node_modules/@loopback/openapi-v3/index.d.ts",
         "../../node_modules/@types/express/ts4.0/index.d.ts",
         "../../node_modules/@types/express-serve-static-core/ts4.0/index.d.ts",
-        "../../node_modules/@loopback/rest-explorer/node_modules/@types/serve-static/index.d.ts",
+        "../../node_modules/@types/serve-static/index.d.ts",
         "../../node_modules/@loopback/rest/dist/types.d.ts",
         "../../node_modules/@loopback/rest/dist/router/route-entry.d.ts",
         "../../node_modules/@loopback/rest/dist/router/router-spec.d.ts"
@@ -4607,7 +4601,7 @@
         "../../node_modules/@loopback/core/index.d.ts",
         "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/openapi-v3/index.d.ts",
         "../../node_modules/@types/express-serve-static-core/ts4.0/index.d.ts",
-        "../../node_modules/@loopback/rest-explorer/node_modules/@types/serve-static/index.d.ts",
+        "../../node_modules/@types/serve-static/index.d.ts",
         "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/rest/dist/body-parsers/index.d.ts",
         "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/rest/dist/keys.d.ts",
         "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/rest/dist/rest.server.d.ts",
@@ -4686,7 +4680,7 @@
         "../../node_modules/@types/express/ts4.0/index.d.ts",
         "../../node_modules/@types/express-serve-static-core/ts4.0/index.d.ts",
         "../../node_modules/@types/node/http.d.ts",
-        "../../node_modules/@loopback/rest-explorer/node_modules/@types/serve-static/index.d.ts",
+        "../../node_modules/@types/serve-static/index.d.ts",
         "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/rest/dist/body-parsers/index.d.ts",
         "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/rest/dist/http-handler.d.ts",
         "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/rest/dist/request-context.d.ts",
@@ -4849,7 +4843,7 @@
         "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/openapi-v3/index.d.ts",
         "../../node_modules/@types/express/ts4.0/index.d.ts",
         "../../node_modules/@types/express-serve-static-core/ts4.0/index.d.ts",
-        "../../node_modules/@loopback/rest-explorer/node_modules/@types/serve-static/index.d.ts",
+        "../../node_modules/@types/serve-static/index.d.ts",
         "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/rest/dist/types.d.ts",
         "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/rest/dist/router/route-entry.d.ts",
         "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/rest/dist/router/router-spec.d.ts"
@@ -5682,6 +5676,7 @@
         "../../node_modules/@types/node/http.d.ts",
         "../../node_modules/@types/node/stream.d.ts",
         "../../node_modules/@types/cookiejar/index.d.ts",
+        "../../node_modules/@types/node/buffer.d.ts",
         "../../node_modules/@types/node/index.d.ts"
       ],
       "../../node_modules/@types/supertest/index.d.ts": [
@@ -5699,16 +5694,17 @@
       "../../node_modules/@loopback/http-server/index.d.ts": [
         "../../node_modules/@loopback/http-server/dist/index.d.ts"
       ],
-      "../../node_modules/@types/body-parser/index.d.ts": [
-        "../../node_modules/@types/connect/index.d.ts",
+      "../../node_modules/@types/express/node_modules/@types/serve-static/index.d.ts": [
+        "../../node_modules/@types/mime/index.d.ts",
         "../../node_modules/@types/node/http.d.ts",
         "../../node_modules/@types/node/index.d.ts"
       ],
       "../../node_modules/@types/express/ts4.0/index.d.ts": [
         "../../node_modules/@types/body-parser/index.d.ts",
-        "../../node_modules/@types/serve-static/index.d.ts",
+        "../../node_modules/@types/express/node_modules/@types/serve-static/index.d.ts",
         "../../node_modules/@types/express-serve-static-core/ts4.0/index.d.ts",
-        "../../node_modules/@types/qs/index.d.ts"
+        "../../node_modules/@types/qs/index.d.ts",
+        "../../node_modules/@types/serve-static/index.d.ts"
       ],
       "../../node_modules/@loopback/testlab/dist/http-error-logger.d.ts": [
         "../../node_modules/@types/express/ts4.0/index.d.ts"
@@ -5716,12 +5712,12 @@
       "../../node_modules/strong-error-handler/index.d.ts": [
         "../../node_modules/@types/express/ts4.0/index.d.ts"
       ],
-      "../../node_modules/@types/connect/index.d.ts": [
+      "../../node_modules/@types/body-parser/index.d.ts": [
+        "../../node_modules/@types/connect/index.d.ts",
         "../../node_modules/@types/node/http.d.ts",
         "../../node_modules/@types/node/index.d.ts"
       ],
-      "../../node_modules/@types/serve-static/index.d.ts": [
-        "../../node_modules/@types/mime/index.d.ts",
+      "../../node_modules/@types/connect/index.d.ts": [
         "../../node_modules/@types/node/http.d.ts",
         "../../node_modules/@types/node/index.d.ts"
       ],
@@ -5732,13 +5728,9 @@
         "../../node_modules/@types/qs/index.d.ts",
         "../../node_modules/@types/node/index.d.ts"
       ],
-      "../../node_modules/@loopback/rest/node_modules/@types/serve-static/index.d.ts": [
+      "../../node_modules/@types/serve-static/index.d.ts": [
         "../../node_modules/@types/express-serve-static-core/ts4.0/index.d.ts",
-        "../../node_modules/@loopback/rest-explorer/node_modules/@types/mime/index.d.ts"
-      ],
-      "../../node_modules/@loopback/rest-explorer/node_modules/@types/serve-static/index.d.ts": [
-        "../../node_modules/@types/express-serve-static-core/ts4.0/index.d.ts",
-        "../../node_modules/@loopback/rest-explorer/node_modules/@types/mime/index.d.ts"
+        "../../node_modules/@types/serve-static/node_modules/@types/mime/index.d.ts"
       ],
       "../../node_modules/@loopback/repository/dist/types/buffer.d.ts": [
         "../../node_modules/@loopback/repository/dist/common-types.d.ts",
@@ -6352,18 +6344,18 @@
       "../../node_modules/@types/range-parser/index.d.ts",
       "../../node_modules/@types/qs/index.d.ts",
       "../../node_modules/@types/express-serve-static-core/ts4.0/index.d.ts",
-      "../../node_modules/@types/mime/index.d.ts",
+      "../../node_modules/@types/serve-static/node_modules/@types/mime/index.d.ts",
       "../../node_modules/@types/serve-static/index.d.ts",
       "../../node_modules/@types/connect/index.d.ts",
       "../../node_modules/@types/body-parser/index.d.ts",
+      "../../node_modules/@types/mime/index.d.ts",
+      "../../node_modules/@types/express/node_modules/@types/serve-static/index.d.ts",
       "../../node_modules/@types/express/ts4.0/index.d.ts",
       "../../node_modules/ajv/lib/ajv.d.ts",
       "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/rest/dist/router/route-entry.d.ts",
       "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/rest/dist/router/base-route.d.ts",
       "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/rest/dist/router/controller-route.d.ts",
       "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/rest/dist/router/handler-route.d.ts",
-      "../../node_modules/@loopback/rest-explorer/node_modules/@types/mime/index.d.ts",
-      "../../node_modules/@loopback/rest-explorer/node_modules/@types/serve-static/index.d.ts",
       "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/rest/dist/router/router-spec.d.ts",
       "../../node_modules/@loopback/rest-explorer/node_modules/@loopback/rest/dist/router/external-express-routes.d.ts",
       "../../node_modules/@loopback/http-server/dist/http-server.d.ts",
@@ -6441,7 +6433,6 @@
       "../../node_modules/@loopback/rest/dist/router/base-route.d.ts",
       "../../node_modules/@loopback/rest/dist/router/controller-route.d.ts",
       "../../node_modules/@loopback/rest/dist/router/handler-route.d.ts",
-      "../../node_modules/@loopback/rest/node_modules/@types/serve-static/index.d.ts",
       "../../node_modules/@loopback/rest/dist/router/router-spec.d.ts",
       "../../node_modules/@loopback/rest/dist/router/external-express-routes.d.ts",
       "../../node_modules/@loopback/rest/dist/http-handler.d.ts",
@@ -6514,6 +6505,7 @@
       "./src/index.ts",
       "./src/migrate.ts",
       "../../node_modules/@types/cookiejar/index.d.ts",
+      "../../node_modules/buffer/index.d.ts",
       "../../node_modules/@types/superagent/index.d.ts",
       "../../node_modules/@types/supertest/index.d.ts",
       "../../node_modules/@loopback/testlab/dist/client.d.ts",
@@ -6553,7 +6545,6 @@
       "../../node_modules/@loopback/build/node_modules/typescript/lib/lib.es2020.d.ts",
       "../../node_modules/@loopback/build/node_modules/typescript/lib/lib.esnext.d.ts",
       "../../node_modules/@loopback/build/node_modules/typescript/lib/lib.es5.d.ts",
-      "../../node_modules/@loopback/build/node_modules/typescript/lib/lib.dom.d.ts",
       "../../node_modules/@loopback/build/node_modules/typescript/lib/lib.es2015.core.d.ts",
       "../../node_modules/@loopback/build/node_modules/typescript/lib/lib.es2015.collection.d.ts",
       "../../node_modules/@loopback/build/node_modules/typescript/lib/lib.es2015.generator.d.ts",
