@@ -2,7 +2,8 @@
   <div
     class="flex flex-col items-center justify-center h-full space-y-2 text-xl"
   >
-    <br />
+    <img class="relative right-0" width="50px" height="50px" src="https://pinia.vuejs.org/logo.svg"
+         alt="pinia logo" />
     <div class="flex items-center justify-center">
       <button
         @click="store.increment()"

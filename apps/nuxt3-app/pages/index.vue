@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12">
+  <div class="min-h-screen bg-gray-100 py-1 flex flex-col">
     <div class="relative py-3 sm:max-w-xl sm:mx-auto">
       <div
         class="absolute inset-0 bg-gradient-to-r from-green-400 to-green-700 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"
@@ -59,7 +59,7 @@
                   <p class="ml-2">
                     Get the best development experience writing components <code
                     class="text-sm font-bold text-gray-900"
-                  >without</code> touching a css using
+                  >without</code> touching a CSS using
                     <a
                       href="https://tailwindcss.com/"
                       target="_blank"
@@ -86,8 +86,6 @@
                   </p>
                 </li>
               </ul>
-            </div>
-            <div class="pt-6 text-base leading-6 font-bold sm:text-lg sm:leading-7">
               <p>
                 <a
                   href="https://play.tailwindcss.com"
@@ -97,6 +95,8 @@
                 > Tailwind playground
                   &rarr; </a>
               </p>
+            </div>
+            <div class="pt-6 text-base leading-6 font-bold sm:text-lg sm:leading-7">
               <Counter/>
             </div>
           </div>

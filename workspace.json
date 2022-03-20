@@ -28,8 +28,8 @@
         "start": {
           "executor": "@nrwl/workspace:run-commands",
           "options": {
-            "commands": ["node ../../dist/apps/back-end/index.js"],
-            "cwd": "apps/back-end",
+            "commands": ["node index.js"],
+            "cwd": "dist/apps/back-end",
             "parallel": false
           }
         },
@@ -80,7 +80,7 @@
         "build": {
           "executor": "@nrwl/workspace:run-commands",
           "options": {
-            "commands": ["$(npm bin)/nuxi build"],
+            "commands": ["nuxi build"],
             "cwd": "apps/nuxt3-app",
             "parallel": false
           }
@@ -89,14 +89,14 @@
           "executor": "@nrwl/workspace:run-commands",
           "options": {
             "commands": ["PORT=8080 node .output/server/index.mjs"],
-            "cwd": "apps/nuxt3-app",
+            "cwd": "dist/apps/nuxt3-app",
             "parallel": false
           }
         },
         "dev": {
           "executor": "@nrwl/workspace:run-commands",
           "options": {
-            "commands": ["$(npm bin)/nuxi dev -o -p 8080"],
+            "commands": ["nuxi dev -o -p 8080"],
             "cwd": "apps/nuxt3-app",
             "parallel": false
           }

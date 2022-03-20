@@ -53,14 +53,11 @@
     "lolcat": "^1.0.0",
     "prop-types": "^15.7.2",
     "regenerator-runtime": "0.13.7",
-    "tslib": "^2.0.0"
+    "tslib": "^2.0.0",
+    "@pinia/nuxt": "^0.1.8",
+    "pinia": "^2.0.12"
   },
   "devDependencies": {
-    "@storybook/vue": "^6.4.19",
-    "@pinia/nuxt": "^0.1.8",
-    "pinia": "^2.0.12",
-    "@angular-devkit/core": "^12.0.4",
-    "@angular-devkit/schematics": "^12.0.4",
     "@babel/core": "7.12.13",
     "@babel/preset-env": "7.12.13",
     "@babel/preset-typescript": "7.12.13",
@@ -74,6 +71,7 @@
     "@nrwl/jest": "12.3.6",
     "@nrwl/linter": "12.3.6",
     "@nrwl/node": "^12.8.0",
+    "@nrwl/storybook": "^13.9.3",
     "@nrwl/workspace": "12.3.6",
     "@nuxt/types": "^2.15.8",
     "@nuxt/typescript-build": "^2.0.4",
@@ -81,6 +79,10 @@
     "@nuxtjs/eslint-config-typescript": "^5.0.0",
     "@nuxtjs/tailwindcss": "latest",
     "@nx-plus/nuxt": "latest",
+    "@storybook/addon-actions": "^6.4.19",
+    "@storybook/addon-essentials": "^6.4.19",
+    "@storybook/addon-links": "^6.4.19",
+    "@storybook/vue": "^6.4.19",
     "@svgr/webpack": "^5.4.0",
     "@types/jest": "26.0.8",
     "@types/node": "14.14.33",
@@ -122,7 +124,7 @@
     "typescript": "~4.2.4",
     "url-loader": "^3.0.0",
     "vue-jest": "^3.0.5",
-    "vue-loader": "^15.9.7",
+    "vue-loader": "^15.9.8",
     "vue-template-compiler": "^2.6.14"
   }
 }
