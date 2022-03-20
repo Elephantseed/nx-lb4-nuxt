@@ -39,9 +39,6 @@
     "nuxt-client-e2e": {
       "tags": ["scope:client"],
       "implicitDependencies": ["nuxt3-app"]
-    },
-    "spinners": {
-      "tags": []
     }
   }
 }

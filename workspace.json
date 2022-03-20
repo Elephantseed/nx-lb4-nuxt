@@ -20,7 +20,10 @@
         "build": {
           "executor": "@nrwl/workspace:run-commands",
           "options": {
-            "commands": ["rimraf *.tsbuildinfo", "lb-tsc --incremental"],
+            "commands": [
+              "rimraf *.tsbuildinfo",
+              "lb-tsc --incremental"
+            ],
             "cwd": "apps/back-end",
             "parallel": false
           }
@@ -28,22 +31,28 @@
         "start": {
           "executor": "@nrwl/workspace:run-commands",
           "options": {
-            "commands": ["node index.js"],
-            "cwd": "dist/apps/back-end",
+            "commands": [
+              "node index.js"
+            ],
+            "cwd": "apps/back-end/dist",
             "parallel": false
           }
         },
         "dev": {
           "executor": "@nrwl/workspace:run-commands",
           "options": {
-            "commands": ["ts-node index.ts"],
+            "commands": [
+              "ts-node index.ts"
+            ],
             "cwd": "apps/back-end",
             "parallel": false
           }
         },
         "test": {
           "executor": "@nrwl/jest:jest",
-          "outputs": ["coverage/apps/back-end"],
+          "outputs": [
+            "coverage/apps/back-end"
+          ],
           "options": {
             "jestConfig": "apps/back-end/jest.config.js",
             "passWithNoTests": true
@@ -52,7 +61,9 @@
         "lint": {
           "executor": "@nrwl/linter:eslint",
           "options": {
-            "lintFilePatterns": ["apps/back-end/**/*.{ts,tsx,js,jsx}"]
+            "lintFilePatterns": [
+              "apps/back-end/**/*.{ts,tsx,js,jsx}"
+            ]
           }
         }
       }
@@ -64,7 +75,9 @@
         "storybook": {
           "executor": "@nrwl/workspace:run-commands",
           "options": {
-            "commands": ["start-storybook -p 6006"],
+            "commands": [
+              "start-storybook -p 6006"
+            ],
             "cwd": "apps/nuxt3-app",
             "parallel": false
           }
@@ -72,7 +85,19 @@
         "build-storybook": {
           "executor": "@nrwl/workspace:run-commands",
           "options": {
-            "commands": ["build-storybook"],
+            "commands": [
+              "build-storybook"
+            ],
+            "cwd": "apps/nuxt3-app",
+            "parallel": false
+          }
+        },
+        "preview": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              "npx nuxi preview"
+            ],
             "cwd": "apps/nuxt3-app",
             "parallel": false
           }
@@ -80,7 +105,9 @@
         "build": {
           "executor": "@nrwl/workspace:run-commands",
           "options": {
-            "commands": ["nuxi build ../../dist/apps/nuxt3-app"],
+            "commands": [
+              "npx nuxi build"
+            ],
             "cwd": "apps/nuxt3-app",
             "parallel": false
           }
@@ -88,15 +115,19 @@
         "start": {
           "executor": "@nrwl/workspace:run-commands",
           "options": {
-            "commands": ["PORT=8080 node .output/server/index.mjs"],
-            "cwd": "dist/apps/nuxt3-app",
+            "commands": [
+              "PORT=8080 node .output/server/index.mjs"
+            ],
+            "cwd": "apps/nuxt3-app",
             "parallel": false
           }
         },
         "dev": {
           "executor": "@nrwl/workspace:run-commands",
           "options": {
-            "commands": ["nuxi dev -o -p 8080"],
+            "commands": [
+              "npx nuxi dev -o -p 8080"
+            ],
             "cwd": "apps/nuxt3-app",
             "parallel": false
           }
@@ -104,15 +135,19 @@
         "lint": {
           "executor": "@nrwl/linter:eslint",
           "options": {
-            "lintFilePatterns": ["apps/nuxt3-app/**/*.{ts,js,vue}"]
+            "lintFilePatterns": [
+              "apps/nuxt3-app/**/*.{ts,js,vue}"
+            ]
           }
         },
         "test": {
-          "executor": "@nrwl/jest:jest",
-          "outputs": ["coverage/apps/nuxt3-app"],
+          "executor": "@nrwl/workspace:run-commands",
           "options": {
-            "jestConfig": "apps/nuxt3-app/jest.config.js",
-            "passWithNoTests": true
+            "commands": [
+              "jest"
+            ],
+            "cwd": "apps/nuxt3-app",
+            "parallel": false
           }
         }
       }
@@ -152,7 +187,9 @@
         "open-e2e-console": {
           "executor": "@nrwl/workspace:run-commands",
           "options": {
-            "commands": ["cypress open --config-file cypress.json"],
+            "commands": [
+              "cypress open --config-file cypress.json"
+            ],
             "cwd": "apps/nuxt-client-e2e",
             "parallel": false
           }
@@ -160,39 +197,9 @@
         "lint": {
           "executor": "@nrwl/linter:eslint",
           "options": {
-            "lintFilePatterns": ["apps/nuxt-client-e2e/**/*.{js,ts}"]
-          }
-        }
-      }
-    },
-    "spinners": {
-      "root": "libs/spinners",
-      "sourceRoot": "libs/spinners/src",
-      "projectType": "library",
-      "targets": {
-        "lint": {
-          "executor": "@nrwl/linter:eslint",
-          "options": {
-            "lintFilePatterns": ["libs/spinners/**/*.ts"]
-          }
-        },
-        "test": {
-          "executor": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/spinners"],
-          "options": {
-            "jestConfig": "libs/spinners/jest.config.js",
-            "passWithNoTests": true
-          }
-        },
-        "build": {
-          "executor": "@nrwl/node:package",
-          "outputs": ["{options.outputPath}"],
-          "options": {
-            "outputPath": "dist/libs/spinners",
-            "tsConfig": "libs/spinners/tsconfig.lib.json",
-            "packageJson": "libs/spinners/package.json",
-            "main": "libs/spinners/src/index.ts",
-            "assets": ["libs/spinners/*.md"]
+            "lintFilePatterns": [
+              "apps/nuxt-client-e2e/**/*.{js,ts}"
+            ]
           }
         }
       }

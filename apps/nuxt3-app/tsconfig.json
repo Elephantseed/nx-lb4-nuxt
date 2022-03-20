@@ -2,11 +2,13 @@
   // https://v3.nuxtjs.org/concepts/typescript
   "extends": "./.nuxt/tsconfig.json",
   "compilerOptions": {
-    "outDir": "../../dist/apps/nuxt3-app",
     "esModuleInterop": true,
+    "isolatedModules": true,
+    "strict": true,
     "allowJs": true,
     "noEmit": true,
-    "types": ["node", "@nuxt/types"]
+    "types": ["node", "@nuxt/types", "jest"],
+    "target": "es6"
   },
   "paths": {
     "~/*": ["./*"],

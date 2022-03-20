@@ -139,6 +139,7 @@ Visit [Nx Cloud](https://nx.app/) to learn more.
   - https://geekflare.com/storybook-in-react/
   - https://nerdcave.com/tailwind-cheat-sheet
   - https://v3.nuxtjs.org/docs/usage/cli
+  - https://github.com/lmiller1990/vtu-next-demo
 
 ##Known issues
 

@@ -5,11 +5,12 @@
     />
   </IconBase>
 </template>
+<script lang="ts">
+import IconMixin from "@/mixins/IconMixin.vue";
+import { defineComponent } from "vue";
 
-<script>
-import IconMixin from '@/mixins/IconMixin.vue'
-export default {
-  name: 'IconGoogle',
-  mixins: [IconMixin],
-}
+export default defineComponent({
+  name: "IconGoogle",
+  mixins: [IconMixin]
+});
 </script>

@@ -3,7 +3,7 @@ import { defineNuxtConfig } from "nuxt3";
 export default defineNuxtConfig({
   css: ["@/assets/css/styles.css"],
   buildModules: [
-    '@pinia/nuxt'
+    "@pinia/nuxt"
   ],
   build: {
     postcss: {
