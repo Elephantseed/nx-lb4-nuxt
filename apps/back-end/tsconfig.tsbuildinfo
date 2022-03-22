@@ -1853,10 +1853,10 @@
       "lib": [
         "lib.esnext.d.ts"
       ],
-      "module": 1,
+      "module": 99,
       "esModuleInterop": true,
       "moduleResolution": 2,
-      "target": 5,
+      "target": 7,
       "sourceMap": true,
       "declaration": false,
       "outDir": "./dist",

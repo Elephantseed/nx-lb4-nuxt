@@ -14,13 +14,13 @@
               </h1>
               <p>
                 This is another <a
-                href="https://github.com/Elephantseed/nx-lb4-nuxt"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="text-overwrittenGreen-600"
-              >
-                seed
-              </a> to develop rich SPA in the blink of an eye:
+                  href="https://github.com/Elephantseed/nx-lb4-nuxt"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-overwrittenGreen-600"
+                >
+                  seed
+                </a> to develop rich SPA in the blink of an eye:
               </p>
               <ul class="list-disc space-y-2">
                 <li class="flex items-start">
@@ -35,13 +35,13 @@
                   </span>
                   <p class="ml-2">
                     Use <a
-                    href="https://nx.dev/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="text-overwrittenGreen-600"
-                  >
-                    Nx
-                  </a>
+                      href="https://nx.dev/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-overwrittenGreen-600"
+                    >
+                      Nx
+                    </a>
                     to manage your
                     <code class="text-sm font-bold text-gray-900">monorepo</code> effortlessly
                   </p>
@@ -58,8 +58,8 @@
                   </span>
                   <p class="ml-2">
                     Get the best development experience writing components <code
-                    class="text-sm font-bold text-gray-900"
-                  >without</code> touching a CSS using
+                      class="text-sm font-bold text-gray-900"
+                    >without</code> touching a CSS using
                     <a
                       href="https://tailwindcss.com/"
                       target="_blank"
@@ -97,7 +97,7 @@
               </p>
             </div>
             <div class="pt-6 text-base leading-6 font-bold sm:text-lg sm:leading-7">
-              <Counter/>
+              <Counter />
             </div>
           </div>
         </div>

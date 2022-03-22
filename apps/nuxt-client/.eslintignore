@@ -1,5 +1,0 @@
-dist/
-node_locale/
-*.d.ts
-.nuxt-storybook
-storybook-static

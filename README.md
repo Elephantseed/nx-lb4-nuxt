@@ -143,6 +143,8 @@ Visit [Nx Cloud](https://nx.app/) to learn more.
   - https://storybook.js.org/blog/storybook-vue3/
   - https://github.com/vuejs/pinia/discussions/833
   - https://dev.to/theandrewsky/using-modules-and-pinia-to-structure-nuxt-3-app-5963
+  - https://stackoverflow.com/questions/59879689/jest-syntaxerror-cannot-use-import-statement-outside-a-module
+  - https://github.com/kulshekhar/ts-jest/issues/3034
 
 ##Known issues
 

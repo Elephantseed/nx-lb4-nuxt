@@ -65,7 +65,4 @@ export default {
       plugins: [['@babel/plugin-proposal-private-methods', {loose: true}]],
     },
   },
-  server:{
-    port: 8080,
-  }
 };
