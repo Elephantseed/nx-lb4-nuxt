@@ -3,7 +3,7 @@
     <header class="w-full h-8 bg-green-500">
       <nav class="flex items-center justify-center w-full h-full text-center text-black">
         <h2 class="text-2xl font-bold text-white">
-          <slot name="header" v-if="header" />
+          <slot v-if="header" name="header" />
           <span v-else>Nuxt 3</span>
         </h2>
       </nav>

@@ -21,6 +21,7 @@ test('app.vue uses shallowMount', async () => {
   expect(svg.classes()).toContain('NuxtLogo h-28 sm:h-32 animate-pulse max-w-md mx-auto')
   // expect(wrapper.html()).toContain('Count: 0')
 
+  // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
   // @ts-ignore TODO: Improve types for `findComponent`
   // await wrapper.findComponent(Hello).vm.$emit('greet')
   // expect(wrapper.html()).toContain('Count: 1')
