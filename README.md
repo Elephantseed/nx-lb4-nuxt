@@ -145,6 +145,7 @@ Visit [Nx Cloud](https://nx.app/) to learn more.
   - https://dev.to/theandrewsky/using-modules-and-pinia-to-structure-nuxt-3-app-5963
   - https://stackoverflow.com/questions/59879689/jest-syntaxerror-cannot-use-import-statement-outside-a-module
   - https://github.com/kulshekhar/ts-jest/issues/3034
+  - https://medium.com/geekculture/is-playwright-better-than-cypress-playwright-vs-cypress-151bd65a224f
 
 ##Known issues
 

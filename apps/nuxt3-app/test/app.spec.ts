@@ -1,24 +1,25 @@
 import { mount, shallowMount } from '@vue/test-utils'
 // import App from '../app.vue'
 import Index from '../pages/index.vue'
-
+// This test showcases the difference between 'mount' and 'shallowMount'
 test('app.vue uses mounts', async () => {
   // const wrapper = mount(App)
   const wrapper = mount(Index)
   console.log(wrapper.html())
   expect(wrapper.html()).toContain('Elephant Seed')
-  expect(wrapper.html()).toContain('Hello world')
-  expect(wrapper.html()).toContain('Count: 0')
+  expect(wrapper.html()).toContain('Write BDD tests to avoid')
 
-  await wrapper.find('button').trigger('click')
-  expect(wrapper.html()).toContain('Count: 1')
+  const svg = await wrapper.find('svg')
+  expect(svg.classes()).toContain('NuxtLogo h-28 sm:h-32 animate-pulse max-w-md mx-auto')
 })
 
 test('app.vue uses shallowMount', async () => {
   const wrapper = shallowMount(Index)
+  console.log(wrapper.html())
   expect(wrapper.html()).toContain('Elephant Seed')
-  expect(wrapper.html()).not.toContain('Hello world')
-  expect(wrapper.html()).toContain('Count: 0')
+  const svg = await wrapper.find('svg')
+  expect(svg.classes()).toContain('NuxtLogo h-28 sm:h-32 animate-pulse max-w-md mx-auto')
+  // expect(wrapper.html()).toContain('Count: 0')
 
   // @ts-ignore TODO: Improve types for `findComponent`
   // await wrapper.findComponent(Hello).vm.$emit('greet')

@@ -10,6 +10,10 @@ Make sure to install the dependencies
 yarn install
 ```
 
+## Referencing Components
+
+You would reference that button as <BaseButton> as it is constructed from the path segments: Base + Button + Button, with duplicated segments disappearing.
+
 ## Development
 
 Start the development server on http://localhost:3000

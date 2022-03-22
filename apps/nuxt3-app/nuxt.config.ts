@@ -10,6 +10,7 @@ export default defineNuxtConfig({
    ** See https://nuxtjs.org/api/configuration-components
    */
   components: true,
+  loading: { color: '#F00' },
   build: {
     postcss: {
       postcssOptions: require("./postcss.config.js")
