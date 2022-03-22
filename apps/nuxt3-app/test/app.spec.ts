@@ -1,8 +1,11 @@
 import { mount, shallowMount } from '@vue/test-utils'
-import App from '../app.vue'
+// import App from '../app.vue'
+import Index from '../pages/index.vue'
 
 test('app.vue uses mounts', async () => {
-  const wrapper = mount(App)
+  // const wrapper = mount(App)
+  const wrapper = mount(Index)
+  console.log(wrapper.html())
   expect(wrapper.html()).toContain('Vue app')
   expect(wrapper.html()).toContain('Hello world')
   expect(wrapper.html()).toContain('Count: 0')
@@ -12,8 +15,8 @@ test('app.vue uses mounts', async () => {
 })
 
 test('app.vue uses shallowMount', async () => {
-  const wrapper = shallowMount(App)
-  expect(wrapper.html()).toContain('Vue app')
+  const wrapper = shallowMount(Index)
+  expect(wrapper.html()).toContain('Elephant Seed')
   expect(wrapper.html()).not.toContain('Hello world')
   expect(wrapper.html()).toContain('Count: 0')
 

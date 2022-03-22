@@ -141,6 +141,8 @@ Visit [Nx Cloud](https://nx.app/) to learn more.
   - https://v3.nuxtjs.org/docs/usage/cli
   - https://github.com/lmiller1990/vtu-next-demo
   - https://storybook.js.org/blog/storybook-vue3/
+  - https://github.com/vuejs/pinia/discussions/833
+  - https://dev.to/theandrewsky/using-modules-and-pinia-to-structure-nuxt-3-app-5963
 
 ##Known issues
 

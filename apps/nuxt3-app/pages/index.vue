@@ -108,9 +108,10 @@
 <script>
 import { defineComponent } from "vue";
 import Counter from "../components/counters/counter";
+import IconsLogo from "../components/icons/logo";
 
 export default defineComponent({
-  components: { Counter }
+  components: { Counter, IconsLogo }
 });
 </script>
 

@@ -28,8 +28,9 @@
 </template>
 
 <script setup>
+import { createPinia } from "pinia";
+import { useStore } from "../../store/store";
 
-import { useStore } from "~/store/store";
-
-const store = useStore();
+const pinia = createPinia();
+const store = useStore(pinia);
 </script>
