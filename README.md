@@ -147,6 +147,7 @@ Visit [Nx Cloud](https://nx.app/) to learn more.
   - https://github.com/kulshekhar/ts-jest/issues/3034
   - https://medium.com/geekculture/is-playwright-better-than-cypress-playwright-vs-cypress-151bd65a224f
   - https://github.com/Tallyb/cucumber-playwright
+  - https://headlessui.dev
 
 ##Known issues
 
