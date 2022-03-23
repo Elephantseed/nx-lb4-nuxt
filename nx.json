@@ -5,7 +5,7 @@
       "devDependencies": "*"
     },
     ".eslintrc.json": "*",
-    "apps/nuxt-client-e2e/src/**": ["nuxt-client-e2e"]
+    "apps/nuxt3-app/*": ["nuxt-client-e2e"]
   },
   "affected": {
     "defaultBase": "master"
