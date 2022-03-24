@@ -1,7 +1,6 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "rootDir": ".",
     "sourceMap": true,
     "declaration": false,
     "moduleResolution": "node",
@@ -14,9 +13,6 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {
-      "spinners": ["libs/spinners/src/index.ts"]
-    },
     "types": ["cypress", "node"]
   },
   "exclude": ["node_modules", "tmp"]

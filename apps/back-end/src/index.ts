@@ -1,17 +1,19 @@
-import {BackEndApplication} from './application';
-import {ApplicationConfig} from '@loopback/core';
+import { BackEndApplication } from './application';
+import { ApplicationConfig } from '@loopback/core';
 
-export {BackEndApplication};
+export { BackEndApplication };
 
 export async function main(options: ApplicationConfig = {}) {
-  const app = new BackEndApplication({port: 8080});
+  const app = new BackEndApplication(options);
   await app.boot();
   await app.start();
 
-  const url = app.restServer.url;
-  console.log(`Server is running at ${url}`);
-  console.log(`Try ${url}/ping`);
+  let url = app.restServer.url;
+  url = url?.replace('[::1]', 'localhost'); // Hack to make it linkable in the console since it is very convenient for developing
+  console.log(`  > Back-end: ${url}/\n`);
 
   return app;
 }
-main().then(()=>{console.log('Back-end Started')});
+
+// eslint-disable-next-line @typescript-eslint/no-empty-function
+main().then(() => {});
