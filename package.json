@@ -111,7 +111,7 @@
     "eslint-plugin-nuxt": "^2.0.0",
     "husky": "^7.0.2",
     "jest": "26.2.2",
-    "node-sass": "5.0.0",
+    "node-sass": "7.0.0",
     "nx-loopback-next": "^0.0.4",
     "ora": "^6.0.0",
     "postcss": "^8.3.6",
