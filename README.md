@@ -1,4 +1,3 @@
-
 # Quickstart
 
 ```shell
@@ -11,15 +10,15 @@ yarn ci
 
 # Helpful commands
 
-```shell
+````shell
 nx run nuxt-client:build
 nx run back-end:build
 
 # Intro
 
-Enterprise-level Nx, Webpack 5, Loopback 4, Nuxt, Storybook, 
-and Tailwind for a frictionless development of Monorepos using 
-Cucumber, Gherkin, and BDD, 
+Enterprise-level Nx, Webpack 5, Loopback 4, Nuxt, Storybook,
+and Tailwind for a frictionless development of Monorepos using
+Cucumber, Gherkin, and BDD,
 
     no CSS was harmed in the making of this project 😇
 
@@ -33,7 +32,7 @@ $ yarn build
 $ yarn ci
 $ yarn start
 $ open http://localhost:3000 && open http://localhost:3000/_tailwind
-```
+````
 
 # Storybook
 
@@ -134,22 +133,22 @@ Visit [Nx Cloud](https://nx.app/) to learn more.
 
 ##Useful links
 
-  - https://www.componentdriven.org/
-  - https://github.com/storybookjs/storybook/tree/master/addons/knobs
-  - https://geekflare.com/storybook-in-react/
-  - https://nerdcave.com/tailwind-cheat-sheet
-  - https://v3.nuxtjs.org/docs/usage/cli
-  - https://github.com/lmiller1990/vtu-next-demo
-  - https://storybook.js.org/blog/storybook-vue3/
-  - https://github.com/vuejs/pinia/discussions/833
-  - https://dev.to/theandrewsky/using-modules-and-pinia-to-structure-nuxt-3-app-5963
-  - https://stackoverflow.com/questions/59879689/jest-syntaxerror-cannot-use-import-statement-outside-a-module
-  - https://github.com/kulshekhar/ts-jest/issues/3034
-  - https://medium.com/geekculture/is-playwright-better-than-cypress-playwright-vs-cypress-151bd65a224f
-  - https://github.com/Tallyb/cucumber-playwright
-  - https://headlessui.dev
+- https://www.componentdriven.org/
+- https://github.com/storybookjs/storybook/tree/master/addons/knobs
+- https://geekflare.com/storybook-in-react/
+- https://nerdcave.com/tailwind-cheat-sheet
+- https://v3.nuxtjs.org/docs/usage/cli
+- https://github.com/lmiller1990/vtu-next-demo
+- https://storybook.js.org/blog/storybook-vue3/
+- https://github.com/vuejs/pinia/discussions/833
+- https://dev.to/theandrewsky/using-modules-and-pinia-to-structure-nuxt-3-app-5963
+- https://stackoverflow.com/questions/59879689/jest-syntaxerror-cannot-use-import-statement-outside-a-module
+- https://github.com/kulshekhar/ts-jest/issues/3034
+- https://medium.com/geekculture/is-playwright-better-than-cypress-playwright-vs-cypress-151bd65a224f
+- https://github.com/Tallyb/cucumber-playwright
+- https://headlessui.dev
 
 ##Known issues
 
- - https://github.com/nrwl/nx/issues/1777
- - @types/jest needs to be version 25 for jest unit test to pass gracefully, it took a lot to configure it, don't touch it!!
+- https://github.com/nrwl/nx/issues/1777
+- @types/jest needs to be version 25 for jest unit test to pass gracefully, it took a lot to configure it, don't touch it!!

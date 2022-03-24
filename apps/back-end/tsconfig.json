@@ -20,22 +20,9 @@
     "incremental": true,
     "tsBuildInfoFile": "tsconfig.tsbuildinfo",
     "baseUrl": ".",
-    "types": [
-      "node",
-      "jest"
-    ],
-    "lib": [
-      "esnext"
-    ]
+    "types": ["node", "jest"],
+    "lib": ["esnext"]
   },
-  "include": [
-    "src/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules",
-    "*/node_modules",
-    "dist"
-  ]
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "*/node_modules", "dist"]
 }
-
-

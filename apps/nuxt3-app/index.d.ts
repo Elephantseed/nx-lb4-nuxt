@@ -1,4 +1,4 @@
 declare module '*.vue' {
-  const Comp: any
-  export default Comp
+  const Comp: any;
+  export default Comp;
 }

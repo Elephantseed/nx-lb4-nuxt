@@ -6,6 +6,6 @@ describe('IconGithub', () => {
     const wrapper = mount(IconGithub);
     // console.log(wrapper.html())
     expect(wrapper.vm).toBeTruthy();
-    expect(wrapper.html()).toContain('github icon')
+    expect(wrapper.html()).toContain('github icon');
   });
 });
